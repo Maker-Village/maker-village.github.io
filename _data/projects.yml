@@ -1,0 +1,8 @@
+#- name: default
+#  site: 
+#  desc:
+
+- name: TCMan
+  github: tcman
+  desc: |
+        Yet Another choice for BBS client

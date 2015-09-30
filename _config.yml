@@ -1,1 +1,12 @@
+<<<<<<< HEAD
+assets: /assets
+pic: /assets/pics
+css: /assets/css
+js: /assets/js
+
+markdown: redcarpet
+redcarpet:
+    extensions: [ "no_intra_emphasis","tables","fenced_code_blocks","autolink","strikethrough","underline","hightlight","footnote"]
+=======
 　baseurl: /
+>>>>>>> f99c18596d1c6a3bd410e0a8fbe72d26d63469f9

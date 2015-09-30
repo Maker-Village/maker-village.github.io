@@ -1,0 +1,40 @@
+#- name: default
+#  github: default
+#  site: ~
+#  intro: 預計規格 看要不要再加 
+
+- name: Davy
+  github: david50407
+  site: http://davy.tw/
+  intro: 小趴家的貓
+
+- name: Date
+  github: tjjh89017
+  site: http://datetec.blogspot.tw/
+  intro: 富帥不高超級中二伊達達政宗大大 <(_ _)>
+
+- name: Chopper
+  github: andy810625
+  site: http://andy810625.pixnet.net/blog
+  intro: ㄎㄎㄖ大大 <(_ _)>
+  
+- name: NightFeather
+  github: NightFeather
+  site: http://nightfeather.github.io
+  intro: 依舊在人生的選擇間迷路中 TAT
+
+- name: david11014
+  github: david11014
+  site: http://yukikana.twbbs.org
+  intro: 小小機械工
+
+- name: Tatsujin
+  github: c910335
+  site: http://tatsujin.m.candytan.org:8080/
+  intro: 達人
+  
+- name: 小趴
+  github: freetsubasa
+  site: 
+  intro: 不宅，只是居家了點
+  

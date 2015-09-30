@@ -1,0 +1,33 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ site.css }}/page.css" />
+    {% for css in page.css %}
+        <link rel="stylesheet" type="text/css" href="{{site.css}}/{{css}}.css" />
+    {% endfor %}
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="headbar">
+        <div id="logo">
+            <a href="/">
+                <img src="{{ site.pic }}/logo.png" />
+            </a>
+        </div>
+        <div class="padding"></div>
+        <ul id="navbar">
+            <li {% if page.loc == "m" %}class="currPlace"{% endif %}><a href="/member/">Member</a></li>
+            <li {% if page.loc == "p" %}class="currPlace"{% endif %}><a href="/projects/">Projects</a></li>
+            <br class="hide" />
+            <li {% if page.loc == "a" %}class="currPlace"{% endif %}><a href="/about/">About</a></li>
+            <li {% if page.loc == "l" %}class="currPlace"{% endif %}><a href="/link/">Links</a></li>
+        </ul>
+    </div>
+    <div id="main">
+        {{ content }}
+    </div>
+    <hr />
+    <div id="footer">
+    {% include footer.html %}
+    </div>
+</body>

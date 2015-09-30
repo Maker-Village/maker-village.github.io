@@ -1,0 +1,10 @@
+#Sample
+#- name: Google
+#  target: https://google.com.tw
+
+- name: Site's Source
+  target: http://github.com/candytan/candytan.github.com
+
+- name: Jekyll
+  target: http://jekyllrb.com
+
