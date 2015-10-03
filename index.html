@@ -1,20 +1,60 @@
-<<<<<<< HEAD
----
-layout: page
-title: Candytan
-loc: t
-css: [ cards ]
----
-=======
-　　---
-　　layout: default
-　　title: 我的Blog
-　　---
-　　<h2>{{ page.title }}</h2>
-　　<p>最新文章</p>
-　　<ul>
-　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
-　　</ul>
->>>>>>> f99c18596d1c6a3bd410e0a8fbe72d26d63469f9
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+	    
+     <!--navbar-->
+      <nav>
+        <div class="nav-wrapper red">
+          <a href="#" class="brand-logo" ><img  src = "pic/LOGO.png"></img></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down ">
+            <li><a href="#">關於我們</a></li><!--about us-->
+            <li><a href="#">空間設備</a></li><!--device-->
+            <li><a href="#">活動資訊</a></li><!--class info-->
+            <li><a href="#">開發專案</a></li><!--project-->
+            <li><a href="#">空間成員</a></li><!--member-->
+            <li><a href="#">贊助芳名</a></li><!--footer-->
+          </ul>
+        </div>
+      </nav>
+
+      <!--contact icon-->
+      
+      <!--about us-->
+      <div id ="about_us">
+      </div>
+      
+      <!--device-->
+      <div id ="device">
+      </div>
+      
+      <!--class info-->
+      <div id ="class_info">
+      </div>
+      
+      <!--project-->
+      <div id ="project">
+      </div>
+      
+      <!--member-->
+      <div id ="member">
+      </div>
+      
+      <!--footer-->
+      <footer>
+      </footer>
+
+    </body>
+  </html>
+        

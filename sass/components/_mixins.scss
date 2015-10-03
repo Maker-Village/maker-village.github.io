@@ -1,0 +1,38 @@
+@mixin box-shadow-2($args1, $args2) {
+    -webkit-box-shadow: $args1, $args2;
+    -moz-box-shadow: $args1, $args2;
+    box-shadow: $args1, $args2;
+}
+@mixin beveled-corners($bg,
+         $tl:0, $tr:$tl, $br:$tl, $bl:$tr) {
+    background: $bg;
+    background:
+        linear-gradient(120deg, transparent $tl, $bg 0)
+            top left,
+        linear-gradient(240deg, transparent $tr, $bg 0)
+            top right,
+        linear-gradient(-60deg, transparent $br, $bg 0)
+            bottom right,
+        linear-gradient(60deg, transparent $bl, $bg 0)
+            bottom left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+@mixin HEX($bg, $h) {
+    background: $bg;
+    
+    -webkit-clip-path: 
+        polygon($h*0.6 0, 100% - $h *0.6 0, 100% 50%,
+        100% - $h*0.6 100%,
+        $h*0.6 100%, 0 50%);
+
+    clip-path: 
+        polygon($h*0.6 0, calc(100% - $h *0.6) 0, 100% 50%,
+        calc(100% - $h *0.6) 100%,
+        $h*0.6 100%, 0 50%);
+
+    padding-right: $h/4;
+    padding-left: $h/4;
+
+}
