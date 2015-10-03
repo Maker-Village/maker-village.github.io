@@ -1,8 +1,0 @@
-assets: /assets
-pic: /assets/pics
-css: /assets/css
-js: /assets/js
-
-markdown: redcarpet
-redcarpet:
-    extensions: [ "no_intra_emphasis","tables","fenced_code_blocks","autolink","strikethrough","underline","hightlight","footnote"]
