@@ -16,13 +16,14 @@ nav {
       display: block;
       font-size: 2rem;
     }
+
+    transition: background-color 0.5s;
   }
 
   @media #{$large-and-up} {
     a.button-collapse { display: none; }
   }
 
-  
 
   // Collapse button
   .button-collapse {
@@ -182,7 +183,6 @@ nav {
         @include transform(translateY(0));
       }
     }
-
   }
 
 }

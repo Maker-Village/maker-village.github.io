@@ -17,8 +17,10 @@
         $( window ).scroll(function() {
           if($("body").scrollTop()>80){
             $('nav .brand-logo .top').removeClass("top");
+            $('nav .nav-wrapper').addClass("lighten-2");
           }else{
             $('nav .brand-logo img').addClass("top");
+            $('nav .nav-wrapper').removeClass("lighten-2");
           }
         });
       </script>
@@ -120,7 +122,7 @@
             <span class="card-title">電子焊接器材</span>
           </div>
           <div class="card-content">
-            <p>焊出一個網羅</p>
+            <p>焊出網羅</p>
           </div>
         </div>
         
