@@ -15,8 +15,31 @@
   margin: $element-top-margin 0 $element-bottom-margin 0;
   background-color: $card-bg-color;
   transition: box-shadow .25s;
-  border-radius: 2px;
-  @extend .z-depth-1;
+  //border-radius: 2px;
+  border: 20px solid transparent;
+  border-style: solid;
+  /* Safari and Chrome */
+  -webkit-border-image-source: url("../pic/border.png"); 
+  -webkit-border-image-slice: 20; 
+  -webkit-border-image-width: 0; 
+  -webkit-border-image-repeat: stretch; 
+  -webkit-border-image-outset: 10px;
+
+  /* Firefox */
+  -moz-border-image-source: url("../pic/border.png"); 
+  -moz-border-image-slice: 20; 
+  -moz-border-image-width: 0; 
+  -moz-border-image-repeat: stretch; 
+  -moz-border-image-outset: 10px;
+
+  /* CSS3 */
+  border-image-source: url("../pic/border.png"); 
+  border-image-slice: 20; 
+  border-image-width: 1; 
+  border-image-repeat: stretch; 
+  border-image-outset: 10px;
+
+  //@extend .z-depth-1;
 
 
   .card-title {

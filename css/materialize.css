@@ -3226,7 +3226,7 @@ ul li {
 }
 
 /* line 61, ../sass/components/_global.scss */
-.z-depth-1, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+.z-depth-1, .card-panel, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -3349,7 +3349,7 @@ video.responsive-video {
   float: none;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1060px) {
   /* line 172, ../sass/components/_global.scss */
   .pagination {
     width: 100%;
@@ -3422,77 +3422,77 @@ ul.staggered-list li {
 /*********************
   Media Query Classes
 **********************/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   /* line 242, ../sass/components/_global.scss */
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important;
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1060px) {
   /* line 247, ../sass/components/_global.scss */
   .hide-on-med-and-down {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 851px) {
   /* line 252, ../sass/components/_global.scss */
   .hide-on-med-and-up {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media only screen and (min-width: 850px) and (max-width: 1060px) {
   /* line 257, ../sass/components/_global.scss */
   .hide-on-med-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1061px) {
   /* line 262, ../sass/components/_global.scss */
   .hide-on-large-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1061px) {
   /* line 267, ../sass/components/_global.scss */
   .show-on-large {
     display: initial !important;
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media only screen and (min-width: 850px) and (max-width: 1060px) {
   /* line 272, ../sass/components/_global.scss */
   .show-on-medium {
     display: initial !important;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   /* line 277, ../sass/components/_global.scss */
   .show-on-small {
     display: initial !important;
   }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 851px) {
   /* line 282, ../sass/components/_global.scss */
   .show-on-medium-and-up {
     display: initial !important;
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1060px) {
   /* line 287, ../sass/components/_global.scss */
   .show-on-medium-and-down {
     display: initial !important;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   /* line 295, ../sass/components/_global.scss */
   .center-on-small-only {
     text-align: center;
@@ -3567,7 +3567,7 @@ td, th {
   border-radius: 2px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1060px) {
   /* line 372, ../sass/components/_global.scss */
   table.responsive-table {
     width: 100%;
@@ -8114,13 +8114,13 @@ nav ul a span.badge {
   width: 90%;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 851px) {
   /* line 7, ../sass/components/_grid.scss */
   .container {
     width: 85%;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1061px) {
   /* line 12, ../sass/components/_grid.scss */
   .container {
     width: 70%;
@@ -8278,7 +8278,7 @@ nav ul a span.badge {
 .row .col.offset-s12 {
   margin-left: 100%;
 }
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 851px) {
   /* line 77, ../sass/components/_grid.scss */
   .row .col.m1 {
     width: 8.33333%;
@@ -8388,7 +8388,7 @@ nav ul a span.badge {
     margin-left: 100%;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1061px) {
   /* line 99, ../sass/components/_grid.scss */
   .row .col.l1 {
     width: 8.33333%;
@@ -8522,7 +8522,7 @@ nav .nav-wrapper i {
   display: block;
   font-size: 2rem;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1061px) {
   /* line 24, ../sass/components/_navbar.scss */
   nav a.button-collapse {
     display: none;
@@ -8579,7 +8579,7 @@ nav .brand-logo .top {
   clip-path: polygon(0px 0, 100% 0, calc(100% - 73.9px) 100%, 0px 100%);
   transition: -webkit-clip-path 0.5s, height 0.5s, padding-right0 0.5s;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1060px) {
   /* line 44, ../sass/components/_navbar.scss */
   nav .brand-logo {
     left: 50%;
@@ -8704,7 +8704,7 @@ nav .input-field label.active {
   position: fixed;
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1061px) {
   /* line 201, ../sass/components/_navbar.scss */
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 56px;
@@ -8759,7 +8759,7 @@ html {
     font-size: 14px;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1060px) {
   /* line 6, ../sass/components/_typography.scss */
   html {
     font-size: 14.5px;
@@ -8860,121 +8860,121 @@ small {
     font-size: 1.2rem;
   }
 }
-@media only screen and (min-width: 390px) {
+@media only screen and (min-width: 377.5px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.224rem;
   }
 }
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 395px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.248rem;
   }
 }
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 412.5px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.272rem;
   }
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 430px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.296rem;
   }
 }
-@media only screen and (min-width: 510px) {
+@media only screen and (min-width: 447.5px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.32rem;
   }
 }
-@media only screen and (min-width: 540px) {
+@media only screen and (min-width: 465px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.344rem;
   }
 }
-@media only screen and (min-width: 570px) {
+@media only screen and (min-width: 482.5px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.368rem;
   }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.392rem;
   }
 }
-@media only screen and (min-width: 630px) {
+@media only screen and (min-width: 517.5px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.416rem;
   }
 }
-@media only screen and (min-width: 660px) {
+@media only screen and (min-width: 535px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.44rem;
   }
 }
-@media only screen and (min-width: 690px) {
+@media only screen and (min-width: 552.5px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.464rem;
   }
 }
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 570px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.488rem;
   }
 }
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 587.5px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.512rem;
   }
 }
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 605px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.536rem;
   }
 }
-@media only screen and (min-width: 810px) {
+@media only screen and (min-width: 622.5px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.56rem;
   }
 }
-@media only screen and (min-width: 840px) {
+@media only screen and (min-width: 640px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.584rem;
   }
 }
-@media only screen and (min-width: 870px) {
+@media only screen and (min-width: 657.5px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.608rem;
   }
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 675px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.632rem;
   }
 }
-@media only screen and (min-width: 930px) {
+@media only screen and (min-width: 692.5px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.656rem;
   }
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 710px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.68rem;
@@ -9003,78 +9003,97 @@ small {
   margin: 0.5rem 0 1rem 0;
   background-color: #fff;
   transition: box-shadow .25s;
-  border-radius: 2px;
+  border: 20px solid transparent;
+  border-style: solid;
+  /* Safari and Chrome */
+  -webkit-border-image-source: url("../pic/border.png");
+  -webkit-border-image-slice: 20;
+  -webkit-border-image-width: 0;
+  -webkit-border-image-repeat: stretch;
+  -webkit-border-image-outset: 10px;
+  /* Firefox */
+  -moz-border-image-source: url("../pic/border.png");
+  -moz-border-image-slice: 20;
+  -moz-border-image-width: 0;
+  -moz-border-image-repeat: stretch;
+  -moz-border-image-outset: 10px;
+  /* CSS3 */
+  border-image-source: url("../pic/border.png");
+  border-image-slice: 20;
+  border-image-width: 1;
+  border-image-repeat: stretch;
+  border-image-outset: 10px;
 }
-/* line 22, ../sass/components/_cards.scss */
+/* line 45, ../sass/components/_cards.scss */
 .card .card-title {
   color: #fff;
   font-size: 24px;
   font-weight: 300;
 }
-/* line 26, ../sass/components/_cards.scss */
+/* line 49, ../sass/components/_cards.scss */
 .card .card-title.activator {
   cursor: pointer;
 }
-/* line 32, ../sass/components/_cards.scss */
+/* line 55, ../sass/components/_cards.scss */
 .card.small, .card.medium, .card.large {
   position: relative;
 }
-/* line 35, ../sass/components/_cards.scss */
+/* line 58, ../sass/components/_cards.scss */
 .card.small .card-image, .card.medium .card-image, .card.large .card-image {
   overflow: hidden;
 }
-/* line 38, ../sass/components/_cards.scss */
+/* line 61, ../sass/components/_cards.scss */
 .card.small .card-content, .card.medium .card-content, .card.large .card-content {
   overflow: hidden;
 }
-/* line 41, ../sass/components/_cards.scss */
+/* line 64, ../sass/components/_cards.scss */
 .card.small .card-action, .card.medium .card-action, .card.large .card-action {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
 }
-/* line 49, ../sass/components/_cards.scss */
+/* line 72, ../sass/components/_cards.scss */
 .card.small {
   height: 300px;
 }
-/* line 52, ../sass/components/_cards.scss */
+/* line 75, ../sass/components/_cards.scss */
 .card.small .card-image {
   height: 150px;
 }
-/* line 55, ../sass/components/_cards.scss */
+/* line 78, ../sass/components/_cards.scss */
 .card.small .card-content {
   height: 150px;
 }
-/* line 61, ../sass/components/_cards.scss */
+/* line 84, ../sass/components/_cards.scss */
 .card.medium {
   height: 400px;
 }
-/* line 64, ../sass/components/_cards.scss */
+/* line 87, ../sass/components/_cards.scss */
 .card.medium .card-image {
   height: 250px;
 }
-/* line 67, ../sass/components/_cards.scss */
+/* line 90, ../sass/components/_cards.scss */
 .card.medium .card-content {
   height: 150px;
 }
-/* line 72, ../sass/components/_cards.scss */
+/* line 95, ../sass/components/_cards.scss */
 .card.large {
   height: 500px;
 }
-/* line 75, ../sass/components/_cards.scss */
+/* line 98, ../sass/components/_cards.scss */
 .card.large .card-image {
   height: 330px;
 }
-/* line 78, ../sass/components/_cards.scss */
+/* line 101, ../sass/components/_cards.scss */
 .card.large .card-content {
   height: 170px;
 }
-/* line 84, ../sass/components/_cards.scss */
+/* line 107, ../sass/components/_cards.scss */
 .card .card-image {
   position: relative;
 }
-/* line 88, ../sass/components/_cards.scss */
+/* line 111, ../sass/components/_cards.scss */
 .card .card-image img {
   display: block;
   border-radius: 2px 2px 0 0;
@@ -9085,33 +9104,33 @@ small {
   bottom: 0;
   width: 100%;
 }
-/* line 99, ../sass/components/_cards.scss */
+/* line 122, ../sass/components/_cards.scss */
 .card .card-image .card-title {
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 20px;
 }
-/* line 108, ../sass/components/_cards.scss */
+/* line 131, ../sass/components/_cards.scss */
 .card .card-content {
   padding: 20px;
   border-radius: 0 0 2px 2px;
 }
-/* line 113, ../sass/components/_cards.scss */
+/* line 136, ../sass/components/_cards.scss */
 .card .card-content p {
   margin: 0;
   color: inherit;
 }
-/* line 117, ../sass/components/_cards.scss */
+/* line 140, ../sass/components/_cards.scss */
 .card .card-content .card-title {
   line-height: 48px;
 }
-/* line 122, ../sass/components/_cards.scss */
+/* line 145, ../sass/components/_cards.scss */
 .card .card-action {
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   padding: 20px;
 }
-/* line 126, ../sass/components/_cards.scss */
+/* line 149, ../sass/components/_cards.scss */
 .card .card-action a {
   color: #ffab40;
   margin-right: 20px;
@@ -9122,11 +9141,11 @@ small {
   transition: color 0.3s ease;
   text-transform: uppercase;
 }
-/* line 132, ../sass/components/_cards.scss */
+/* line 155, ../sass/components/_cards.scss */
 .card .card-action a:hover {
   color: #ffd8a6;
 }
-/* line 136, ../sass/components/_cards.scss */
+/* line 159, ../sass/components/_cards.scss */
 .card .card-reveal {
   padding: 20px;
   position: absolute;
@@ -9138,7 +9157,7 @@ small {
   z-index: 1;
   display: none;
 }
-/* line 147, ../sass/components/_cards.scss */
+/* line 170, ../sass/components/_cards.scss */
 .card .card-reveal .card-title {
   cursor: pointer;
   display: block;
@@ -9150,14 +9169,14 @@ small {
   position: fixed;
   z-index: 10000;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   /* line 1, ../sass/components/_toast.scss */
   #toast-container {
     min-width: 100%;
     bottom: 0%;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 851px) and (max-width: 1060px) {
   /* line 1, ../sass/components/_toast.scss */
   #toast-container {
     min-width: 30%;
@@ -9165,7 +9184,7 @@ small {
     bottom: 7%;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1061px) {
   /* line 1, ../sass/components/_toast.scss */
   #toast-container {
     min-width: 8%;
@@ -9211,20 +9230,20 @@ small {
 .toast.rounded {
   border-radius: 24px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   /* line 22, ../sass/components/_toast.scss */
   .toast {
     width: 100%;
     border-radius: 0;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 851px) and (max-width: 1060px) {
   /* line 22, ../sass/components/_toast.scss */
   .toast {
     float: left;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1061px) {
   /* line 22, ../sass/components/_toast.scss */
   .toast {
     float: right;
@@ -9682,7 +9701,7 @@ a.waves-effect .waves-ripple {
   border-radius: 2px;
   will-change: top, opacity;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1060px) {
   /* line 1, ../sass/components/_modal.scss */
   .modal {
     width: 80%;
@@ -10261,14 +10280,14 @@ textarea.materialize-textarea + label:after {
 .input-field .prefix ~ label {
   margin-left: 3rem;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1060px) {
   /* line 160, ../sass/components/_form.scss */
   .input-field .prefix ~ input {
     width: 86%;
     width: calc(100% - 3rem);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   /* line 166, ../sass/components/_form.scss */
   .input-field .prefix ~ input {
     width: 80%;
@@ -11216,7 +11235,7 @@ select {
   left: auto;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1060px) {
   /* line 80, ../sass/components/_sideNav.scss */
   .side-nav.fixed {
     left: -105%;
@@ -12676,5 +12695,29 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   /* line 122, ../sass/components/date_picker/_default.time.scss */
   .picker--time .picker__box {
     margin-bottom: 5em;
+  }
+}
+/* line 1, ../sass/components/_costum.scss */
+body {
+  background-color: #fff;
+}
+
+/* line 5, ../sass/components/_costum.scss */
+#top {
+  position: relative;
+  background: url("../pic/first_pic.jpg") no-repeat 50% 20%;
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
+/* line 11, ../sass/components/_costum.scss */
+#top .card {
+  margin: 0px auto !important;
+  width: 400px;
+}
+@media only screen and (max-width: 850px) {
+  /* line 11, ../sass/components/_costum.scss */
+  #top .card {
+    width: 300px;
   }
 }
