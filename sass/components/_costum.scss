@@ -2,11 +2,18 @@ body{
 	background-color: #fff;
 }
 
+.parallax-container {
+    height: 600px;
+}
+
 #top{
-	position: relative;
-	background: url("../pic/first_pic.jpg") no-repeat 50% 20%;
-	padding-top:  10em;
-	padding-bottom: 10em;
+	position: absolute;
+	//background: url("../pic/first_pic.jpg") no-repeat 50% 20%;
+	top: 0;
+	left: 0;
+    right: 0;
+	padding-top:  15em;
+	padding-bottom: 15em;
 }
 #top .card{
 	margin: 0px auto !important;
@@ -16,4 +23,8 @@ body{
 		width: 300px;
 	}
 	
+}
+
+#about_us{
+	margin-top: 30px;
 }

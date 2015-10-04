@@ -12703,21 +12703,33 @@ body {
 }
 
 /* line 5, ../sass/components/_costum.scss */
-#top {
-  position: relative;
-  background: url("../pic/first_pic.jpg") no-repeat 50% 20%;
-  padding-top: 10em;
-  padding-bottom: 10em;
+.parallax-container {
+  height: 600px;
 }
 
-/* line 11, ../sass/components/_costum.scss */
+/* line 9, ../sass/components/_costum.scss */
+#top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 15em;
+  padding-bottom: 15em;
+}
+
+/* line 18, ../sass/components/_costum.scss */
 #top .card {
   margin: 0px auto !important;
   width: 400px;
 }
 @media only screen and (max-width: 850px) {
-  /* line 11, ../sass/components/_costum.scss */
+  /* line 18, ../sass/components/_costum.scss */
   #top .card {
     width: 300px;
   }
+}
+
+/* line 28, ../sass/components/_costum.scss */
+#about_us {
+  margin-top: 30px;
 }

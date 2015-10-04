@@ -1,6 +1,8 @@
   <!DOCTYPE html>
   <html>
     <head>
+      <link rel="shortcut icon" href="favicon.ico"/>
+      <link rel="bookmark" href="favicon.ico"/>
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -15,13 +17,17 @@
       <script type="text/javascript" src="js/materialize.min.js"></script>
 	    <script>
         $( window ).scroll(function() {
-          if($("body").scrollTop()>80){
+          if($("body").scrollTop()>250){
             $('nav .brand-logo .top').removeClass("top");
             $('nav .nav-wrapper').addClass("alpha-5");
           }else{
             $('nav .brand-logo img').addClass("top");
             $('nav .nav-wrapper').removeClass("alpha-5");
           }
+        });
+
+        $(document).ready(function(){
+          $('.parallax').parallax();
         });
       </script>
      <!--navbar-->
@@ -43,7 +49,10 @@
       <!--contact icon-->
       
       <!--fitst picture-->
-      <div id="top" >
+      <div class="parallax-container">
+          <div class="parallax"><img src="pic/first_pic.jpg"></div>
+      </div>
+      <div id="top"> 
           <div class="card">
             <div class="card-content">
               <h1>Life is making!!</h1>
@@ -51,8 +60,17 @@
           </div>
       </div>
       <!--about us-->
-      <div id ="about_us">
-        
+      <div id ="about_us" class= "container">
+        <div class="card">
+          <h4>
+            我們是一群喜愛動手做，將腦海中的創意化為現實的夥伴。<br />
+            希望將動手實作的Maker精神介紹給中正的師生們，<br />
+            藉由空間與工具的提供，降低大家實務上的門檻；<br />
+            不定期舉辦Maker講座、手作工作坊讓同學們學習與體驗手作的樂趣，<br />
+            更是要讓來自來不同學院、帶著不同的思維的同學們，<br />
+            匯聚於此地，一起碰撞出各種創新創意的火花！<br />
+          </h4>
+        </div>
       </div>
       
       <!--device-->
