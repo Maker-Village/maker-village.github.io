@@ -13,38 +13,125 @@
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
-	    
+	    <script>
+        $( window ).scroll(function() {
+          if($("body").scrollTop()>80){
+            $('nav .brand-logo .top').removeClass("top");
+          }else{
+            $('nav .brand-logo img').addClass("top");
+          }
+        });
+      </script>
      <!--navbar-->
-      <nav>
-        <div class="nav-wrapper red">
-          <a href="#" class="brand-logo" ><img  src = "pic/LOGO.png"></img></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down ">
-            <li><a href="#">關於我們</a></li><!--about us-->
-            <li><a href="#">空間設備</a></li><!--device-->
-            <li><a href="#">活動資訊</a></li><!--class info-->
-            <li><a href="#">開發專案</a></li><!--project-->
-            <li><a href="#">空間成員</a></li><!--member-->
-            <li><a href="#">贊助芳名</a></li><!--footer-->
-          </ul>
-        </div>
-      </nav>
-
+     <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper red">
+            <a href="#" class="brand-logo" ><img class="top" src = "pic/LOGO.png" ></img></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down ">
+              <li><a href="#">關於我們</a></li><!--about us-->
+              <li><a href="#">空間設備</a></li><!--device-->
+              <li><a href="#">活動資訊</a></li><!--class info-->
+              <li><a href="#">開發專案</a></li><!--project-->
+              <li><a href="#">空間成員</a></li><!--member-->
+              <li><a href="#">贊助芳名</a></li><!--footer-->
+            </ul>
+          </div>
+        </nav>
+      </div>
       <!--contact icon-->
       
       <!--about us-->
       <div id ="about_us">
+        <p>
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+          test <br />
+        </p>
       </div>
       
       <!--device-->
-      <div id ="device">
-      </div>
+      <div id ="device" class ="container row">
+        
+        
+        <div class="card medium col s12 m4 l4">
+          <div class="card-image">
+            <img src="pic/3dprinter.jpg">
+            <span class="card-title">3D 印表機</span>
+          </div>
+          <div class="card-content">
+            <p>創造你的無限可能</p>
+          </div>
+          <div class="card-action">
+            <a href="#">代印服務</a>
+            <a href="#">線上估價</a>
+          </div>
+        </div>
       
+      
+      
+        <div class="card medium col s12 m4 l4">
+          <div class="card-image">
+            <img src="pic/Soldering_iron .jpg">
+            <span class="card-title">電子焊接器材</span>
+          </div>
+          <div class="card-content">
+            <p>焊出一個網羅</p>
+          </div>
+        </div>
+        
+
+      </div>
       <!--class info-->
       <div id ="class_info">
       </div>
       
       <!--project-->
-      <div id ="project">
+      <div id ="project">           
       </div>
       
       <!--member-->

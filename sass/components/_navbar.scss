@@ -54,21 +54,42 @@ nav {
     }
     
     img{
-      height: $navbar-LOGO-height;
-      background: $navbar-LOGO-background-color;  
 
-      padding-right: 128px;
+      height: $navbar-height;
+      background: $navbar-LOGO-background-color;  
+      padding-right: $navbar-height;
       padding-left: 15px;
+
       -webkit-clip-path: 
         polygon(0px 0, 100% 0, 
-        calc(100% - 73.9px) 100%,
+        calc(100% - 32.33px) 100%,
         0px 100%);
       clip-path:
         polygon(0px 0, 100% 0, 
-        calc(100% - 73.9px) 100%,
+        calc(100% - 32.33px) 100%,
         0px 100%);
-    
-    }
+
+      transition: -webkit-clip-path 0.5s,height 0.5s,padding-right0.5s;
+      }
+
+    .top{
+        height: $navbar-LOGO-height;
+        background: $navbar-LOGO-background-color;  
+
+        padding-right: $navbar-LOGO-height;
+        padding-left: 15px;
+        -webkit-clip-path: 
+          polygon(0px 0, 100% 0, 
+          calc(100% - 73.9px) 100%,
+          0px 100%);
+        clip-path:
+          polygon(0px 0, 100% 0, 
+          calc(100% - 73.9px) 100%,
+          0px 100%);
+        transition: -webkit-clip-path 0.5s,height 0.5s,padding-right0.5s;
+      }
+
+
     @media #{$medium-and-down} {
       left: 50%;
       @include transform(translateX(-50%));
