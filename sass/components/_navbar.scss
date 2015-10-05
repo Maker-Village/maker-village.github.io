@@ -48,7 +48,6 @@ nav {
     font-size: $navbar-brand-font-size;
     padding: 0;
     white-space: nowrap;
-
     &.center {
       left: 50%;
       @include transform(translateX(-50%));
@@ -58,6 +57,7 @@ nav {
 
       height: $navbar-height;
       background: $navbar-LOGO-background-color;  
+
       padding-right: $navbar-height;
       padding-left: 15px;
 
@@ -89,7 +89,6 @@ nav {
           0px 100%);
         transition: -webkit-clip-path 0.5s,height 0.5s,padding-right0.5s;
       }
-
 
     @media #{$medium-and-down} {
       left: 50%;

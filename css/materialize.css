@@ -3236,7 +3236,7 @@ ul li {
 }
 
 /* line 67, ../sass/components/_global.scss */
-.z-depth-2 {
+.z-depth-2, .card {
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -8550,7 +8550,7 @@ nav .brand-logo {
   padding: 0;
   white-space: nowrap;
 }
-/* line 52, ../sass/components/_navbar.scss */
+/* line 51, ../sass/components/_navbar.scss */
 nav .brand-logo.center {
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -8559,7 +8559,7 @@ nav .brand-logo.center {
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-/* line 57, ../sass/components/_navbar.scss */
+/* line 56, ../sass/components/_navbar.scss */
 nav .brand-logo img {
   height: 56px;
   background: #e0e0e0;
@@ -8589,7 +8589,7 @@ nav .brand-logo .top {
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
   }
-  /* line 98, ../sass/components/_navbar.scss */
+  /* line 97, ../sass/components/_navbar.scss */
   nav .brand-logo.left, nav .brand-logo.right {
     padding: 0;
     -webkit-transform: none;
@@ -8598,16 +8598,16 @@ nav .brand-logo .top {
     -o-transform: none;
     transform: none;
   }
-  /* line 103, ../sass/components/_navbar.scss */
+  /* line 102, ../sass/components/_navbar.scss */
   nav .brand-logo.left {
     left: 0.5rem;
   }
-  /* line 104, ../sass/components/_navbar.scss */
+  /* line 103, ../sass/components/_navbar.scss */
   nav .brand-logo.right {
     right: 0.5rem;
     left: auto;
   }
-  /* line 109, ../sass/components/_navbar.scss */
+  /* line 108, ../sass/components/_navbar.scss */
   nav .brand-logo .top, nav .brand-logo img {
     height: 56px;
     -webkit-clip-path: polygon(0 0, 100% 0, calc(100% - 32px) 100%, 32px 100%);
@@ -8616,16 +8616,16 @@ nav .brand-logo .top {
     padding-left: 56px;
   }
 }
-/* line 125, ../sass/components/_navbar.scss */
+/* line 124, ../sass/components/_navbar.scss */
 nav .brand-logo.right {
   right: 0.5rem;
   padding: 0;
 }
-/* line 133, ../sass/components/_navbar.scss */
+/* line 132, ../sass/components/_navbar.scss */
 nav ul {
   margin: 0;
 }
-/* line 136, ../sass/components/_navbar.scss */
+/* line 135, ../sass/components/_navbar.scss */
 nav ul li {
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
@@ -8635,43 +8635,43 @@ nav ul li {
   float: left;
   padding: 0;
 }
-/* line 141, ../sass/components/_navbar.scss */
+/* line 140, ../sass/components/_navbar.scss */
 nav ul li:hover, nav ul li.active {
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* line 145, ../sass/components/_navbar.scss */
+/* line 144, ../sass/components/_navbar.scss */
 nav ul a {
   font-size: 1rem;
   color: #fff;
   display: block;
   padding: 0 15px;
 }
-/* line 152, ../sass/components/_navbar.scss */
+/* line 151, ../sass/components/_navbar.scss */
 nav ul.left {
   float: left;
 }
-/* line 158, ../sass/components/_navbar.scss */
+/* line 157, ../sass/components/_navbar.scss */
 nav .input-field {
   margin: 0;
 }
-/* line 161, ../sass/components/_navbar.scss */
+/* line 160, ../sass/components/_navbar.scss */
 nav .input-field input {
   height: 100%;
   font-size: 1.2rem;
   border: none;
   padding-left: 2rem;
 }
-/* line 167, ../sass/components/_navbar.scss */
+/* line 166, ../sass/components/_navbar.scss */
 nav .input-field input:focus, nav .input-field input[type=text]:valid, nav .input-field input[type=password]:valid, nav .input-field input[type=email]:valid, nav .input-field input[type=url]:valid, nav .input-field input[type=date]:valid {
   border: none;
   box-shadow: none;
 }
-/* line 173, ../sass/components/_navbar.scss */
+/* line 172, ../sass/components/_navbar.scss */
 nav .input-field label {
   top: 0;
   left: 0;
 }
-/* line 177, ../sass/components/_navbar.scss */
+/* line 176, ../sass/components/_navbar.scss */
 nav .input-field label i {
   color: rgba(255, 255, 255, 0.7);
   -webkit-transition: color 0.3s;
@@ -8680,11 +8680,11 @@ nav .input-field label i {
   -ms-transition: color 0.3s;
   transition: color 0.3s;
 }
-/* line 181, ../sass/components/_navbar.scss */
+/* line 180, ../sass/components/_navbar.scss */
 nav .input-field label.active i {
   color: #fff;
 }
-/* line 182, ../sass/components/_navbar.scss */
+/* line 181, ../sass/components/_navbar.scss */
 nav .input-field label.active {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
@@ -8693,25 +8693,25 @@ nav .input-field label.active {
   transform: translateY(0);
 }
 
-/* line 191, ../sass/components/_navbar.scss */
+/* line 190, ../sass/components/_navbar.scss */
 .navbar-fixed {
   position: relative;
   height: 56px;
   z-index: 998;
 }
-/* line 196, ../sass/components/_navbar.scss */
+/* line 195, ../sass/components/_navbar.scss */
 .navbar-fixed nav {
   position: fixed;
 }
 
 @media only screen and (min-width: 1061px) {
-  /* line 201, ../sass/components/_navbar.scss */
+  /* line 200, ../sass/components/_navbar.scss */
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 56px;
     line-height: 56px;
   }
 
-  /* line 205, ../sass/components/_navbar.scss */
+  /* line 204, ../sass/components/_navbar.scss */
   .navbar-fixed {
     height: 56px;
   }
