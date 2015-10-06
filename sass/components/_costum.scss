@@ -1,30 +1,39 @@
 body{
-	background-color: #fff;
+	background: rgba(255,255,240,1);
 }
 
-.parallax-container {
-    height: 600px;
-}
-
-#top{
-	position: absolute;
-	//background: url("../pic/first_pic.jpg") no-repeat 50% 20%;
-	top: 0;
-	left: 0;
-    right: 0;
-	padding-top:  15em;
-	padding-bottom: 15em;
-}
-#top .card{
-	margin: 0px auto !important;
+#top_word{
+	background-color: rgba(0,0,0,0.65);
+	color: white;
+	margin-top: 10em !important;
+	margin-bottom: 10em !important;
+	margin: 0px auto;
 	width: 400px;
-	
+
 	@media #{$small-and-down} {
 		width: 300px;
 	}
 	
 }
 
+#top_pic {
+	position: fixed;
+	margin-top: 0px;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	
+	-webkit-clip-path: 
+      polygon(0 0, 100% 0, 
+      100% 600px, 0px 600px);
+    clip-path:
+      polygon(0 0, 100% 0, 
+      100% 600px, 0px 600px);
+}
+
+
 #about_us{
 	margin-top: 30px;
 }
+

@@ -91,8 +91,8 @@ nav {
       }
 
     @media #{$medium-and-down} {
-      left: 50%;
-      @include transform(translateX(-50%));
+      //left: 50%;
+      //@include transform(translateX(-50%));
 
       &.left, &.right {
         padding: 0;
@@ -109,14 +109,15 @@ nav {
         height: $navbar-LOGO-height-mobile;
 
         -webkit-clip-path: 
-          polygon(0 0, 100%  0, 
-          calc(100% - 32px) 100%, 32px 100%);
-
-        clip-path: 
-          polygon(0 0, 100%  0, 
-          calc(100% - 32px) 100%, 32px 100%);
+          polygon(0px 0, 100% 0, 
+          calc(100% - 32.33px) 100%,
+          0px 100%);
+        clip-path:
+          polygon(0px 0, 100% 0, 
+          calc(100% - 32.33px) 100%,
+          0px 100%);
         padding-right: $navbar-LOGO-height-mobile;
-        padding-left: $navbar-LOGO-height-mobile;
+        padding-left: 15px;
 
       }
     }

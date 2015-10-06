@@ -17,6 +17,8 @@
       <script type="text/javascript" src="js/materialize.min.js"></script>
 	    <script>
         $( window ).scroll(function() {
+
+          //logo & navbar
           if($("body").scrollTop()>250){
             $('nav .brand-logo .top').removeClass("top");
             $('nav .brand-logo img').attr("src","./pic/LOGO-2.png");
@@ -27,13 +29,14 @@
             $('nav .brand-logo img').attr("src","./pic/LOGO.png");
             
             $('nav .nav-wrapper').removeClass("alpha-5");
-
           }
-        });
 
-        $(document).ready(function(){
-          $('.parallax').parallax();
+          //top picture
+          var h = (600-$("body").scrollTop());
+          var value = "-webkit-clip-path: polygon(0 0, 100% 0,100% " + h + "px, 0px "+ h +"px ); clip-path: polygon(0 0, 100% 0,100% " + h + "px, 0px "+ h +"px );";
+          $("#top_pic").attr("style", value);
         });
+        
       </script>
      <!--navbar-->
      <div class="navbar-fixed">
@@ -54,73 +57,76 @@
       <!--contact icon-->
       
       <!--fitst picture-->
-      <div class="parallax-container">
-          <div class="parallax"><img src="pic/first_pic.jpg"></div>
+      
+      <img id= "top_pic"src="pic/first_pic.jpg">
+      <div id= "top_word" class="card">
+        <div class="card-content">
+          <h1>Life is making!!</h1>
+        </div>
       </div>
-      <div id="top"> 
+      
+
+      <!--content-->
+      <div class="content">
+        <!--about us-->
+        <div id ="about_us" class= "container">
           <div class="card">
+            <h4>
+              我們是一群喜愛動手做，將腦海中的創意化為現實的夥伴。<br />
+              希望將動手實作的Maker精神介紹給中正的師生們，<br />
+              藉由空間與工具的提供，降低大家實務上的門檻；<br />
+              不定期舉辦Maker講座、手作工作坊讓同學們學習與體驗手作的樂趣，<br />
+              更是要讓來自來不同學院、帶著不同的思維的同學們，<br />
+              匯聚於此地，一起碰撞出各種創新創意的火花！<br />
+            </h4>
+          </div>
+        </div>
+        
+        <!--device-->
+        <div id ="device" class ="container row">
+          
+          
+          <div class="card medium col s12 m4 l4">
+            <div class="card-image">
+              <img src="pic/3Dprinter.jpg">
+              <span class="card-title">3D 印表機</span>
+            </div>
             <div class="card-content">
-              <h1>Life is making!!</h1>
+              <p>創造你的無限可能</p>
+            </div>
+            <div class="card-action">
+              <a href="#">代印服務</a>
+              <a href="#">線上估價</a>
             </div>
           </div>
-      </div>
-      <!--about us-->
-      <div id ="about_us" class= "container">
-        <div class="card">
-          <h4>
-            我們是一群喜愛動手做，將腦海中的創意化為現實的夥伴。<br />
-            希望將動手實作的Maker精神介紹給中正的師生們，<br />
-            藉由空間與工具的提供，降低大家實務上的門檻；<br />
-            不定期舉辦Maker講座、手作工作坊讓同學們學習與體驗手作的樂趣，<br />
-            更是要讓來自來不同學院、帶著不同的思維的同學們，<br />
-            匯聚於此地，一起碰撞出各種創新創意的火花！<br />
-          </h4>
-        </div>
-      </div>
-      
-      <!--device-->
-      <div id ="device" class ="container row">
         
         
-        <div class="card medium col s12 m4 l4">
-          <div class="card-image">
-            <img src="pic/3Dprinter.jpg">
-            <span class="card-title">3D 印表機</span>
-          </div>
-          <div class="card-content">
-            <p>創造你的無限可能</p>
-          </div>
-          <div class="card-action">
-            <a href="#">代印服務</a>
-            <a href="#">線上估價</a>
-          </div>
-        </div>
-      
-      
-      
-        <div class="card medium col s12 m4 l4">
-          <div class="card-image">
-            <img src="pic/Soldering_iron.jpg">
-            <span class="card-title">電子焊接器材</span>
-          </div>
-          <div class="card-content">
-            <p>焊出網羅</p>
-          </div>
-        </div>
         
+          <div class="card medium col s12 m4 l4">
+            <div class="card-image">
+              <img src="pic/Soldering_iron.jpg">
+              <span class="card-title">電子焊接器材</span>
+            </div>
+            <div class="card-content">
+              <p>焊出網羅</p>
+            </div>
+          </div>
+          
 
-      </div>
-      <!--class info-->
-      <div id ="class_info">
+        </div>
+        <!--class info-->
+        <div id ="class_info">
+        </div>
+        
+        <!--project-->
+        <div id ="project">           
+        </div>
+        
+        <!--member-->
+        <div id ="member">
+        </div>
       </div>
       
-      <!--project-->
-      <div id ="project">           
-      </div>
-      
-      <!--member-->
-      <div id ="member">
-      </div>
       
       <!--footer-->
       <footer>

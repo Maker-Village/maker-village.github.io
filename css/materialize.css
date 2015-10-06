@@ -3226,7 +3226,7 @@ ul li {
 }
 
 /* line 61, ../sass/components/_global.scss */
-.z-depth-1, .card-panel, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+.z-depth-1, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -3236,7 +3236,7 @@ ul li {
 }
 
 /* line 67, ../sass/components/_global.scss */
-.z-depth-2, .card {
+.z-depth-2 {
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -8580,15 +8580,6 @@ nav .brand-logo .top {
   transition: -webkit-clip-path 0.5s, height 0.5s, padding-right0 0.5s;
 }
 @media only screen and (max-width: 1060px) {
-  /* line 44, ../sass/components/_navbar.scss */
-  nav .brand-logo {
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
   /* line 97, ../sass/components/_navbar.scss */
   nav .brand-logo.left, nav .brand-logo.right {
     padding: 0;
@@ -8610,22 +8601,22 @@ nav .brand-logo .top {
   /* line 108, ../sass/components/_navbar.scss */
   nav .brand-logo .top, nav .brand-logo img {
     height: 56px;
-    -webkit-clip-path: polygon(0 0, 100% 0, calc(100% - 32px) 100%, 32px 100%);
-    clip-path: polygon(0 0, 100% 0, calc(100% - 32px) 100%, 32px 100%);
+    -webkit-clip-path: polygon(0px 0, 100% 0, calc(100% - 32.33px) 100%, 0px 100%);
+    clip-path: polygon(0px 0, 100% 0, calc(100% - 32.33px) 100%, 0px 100%);
     padding-right: 56px;
-    padding-left: 56px;
+    padding-left: 15px;
   }
 }
-/* line 124, ../sass/components/_navbar.scss */
+/* line 125, ../sass/components/_navbar.scss */
 nav .brand-logo.right {
   right: 0.5rem;
   padding: 0;
 }
-/* line 132, ../sass/components/_navbar.scss */
+/* line 133, ../sass/components/_navbar.scss */
 nav ul {
   margin: 0;
 }
-/* line 135, ../sass/components/_navbar.scss */
+/* line 136, ../sass/components/_navbar.scss */
 nav ul li {
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
@@ -8635,43 +8626,43 @@ nav ul li {
   float: left;
   padding: 0;
 }
-/* line 140, ../sass/components/_navbar.scss */
+/* line 141, ../sass/components/_navbar.scss */
 nav ul li:hover, nav ul li.active {
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* line 144, ../sass/components/_navbar.scss */
+/* line 145, ../sass/components/_navbar.scss */
 nav ul a {
   font-size: 1rem;
   color: #fff;
   display: block;
   padding: 0 15px;
 }
-/* line 151, ../sass/components/_navbar.scss */
+/* line 152, ../sass/components/_navbar.scss */
 nav ul.left {
   float: left;
 }
-/* line 157, ../sass/components/_navbar.scss */
+/* line 158, ../sass/components/_navbar.scss */
 nav .input-field {
   margin: 0;
 }
-/* line 160, ../sass/components/_navbar.scss */
+/* line 161, ../sass/components/_navbar.scss */
 nav .input-field input {
   height: 100%;
   font-size: 1.2rem;
   border: none;
   padding-left: 2rem;
 }
-/* line 166, ../sass/components/_navbar.scss */
+/* line 167, ../sass/components/_navbar.scss */
 nav .input-field input:focus, nav .input-field input[type=text]:valid, nav .input-field input[type=password]:valid, nav .input-field input[type=email]:valid, nav .input-field input[type=url]:valid, nav .input-field input[type=date]:valid {
   border: none;
   box-shadow: none;
 }
-/* line 172, ../sass/components/_navbar.scss */
+/* line 173, ../sass/components/_navbar.scss */
 nav .input-field label {
   top: 0;
   left: 0;
 }
-/* line 176, ../sass/components/_navbar.scss */
+/* line 177, ../sass/components/_navbar.scss */
 nav .input-field label i {
   color: rgba(255, 255, 255, 0.7);
   -webkit-transition: color 0.3s;
@@ -8680,11 +8671,11 @@ nav .input-field label i {
   -ms-transition: color 0.3s;
   transition: color 0.3s;
 }
-/* line 180, ../sass/components/_navbar.scss */
+/* line 181, ../sass/components/_navbar.scss */
 nav .input-field label.active i {
   color: #fff;
 }
-/* line 181, ../sass/components/_navbar.scss */
+/* line 182, ../sass/components/_navbar.scss */
 nav .input-field label.active {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
@@ -8693,25 +8684,25 @@ nav .input-field label.active {
   transform: translateY(0);
 }
 
-/* line 190, ../sass/components/_navbar.scss */
+/* line 191, ../sass/components/_navbar.scss */
 .navbar-fixed {
   position: relative;
   height: 56px;
   z-index: 998;
 }
-/* line 195, ../sass/components/_navbar.scss */
+/* line 196, ../sass/components/_navbar.scss */
 .navbar-fixed nav {
   position: fixed;
 }
 
 @media only screen and (min-width: 1061px) {
-  /* line 200, ../sass/components/_navbar.scss */
+  /* line 201, ../sass/components/_navbar.scss */
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 56px;
     line-height: 56px;
   }
 
-  /* line 204, ../sass/components/_navbar.scss */
+  /* line 205, ../sass/components/_navbar.scss */
   .navbar-fixed {
     height: 56px;
   }
@@ -12699,37 +12690,38 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 /* line 1, ../sass/components/_costum.scss */
 body {
-  background-color: #fff;
+  background: ivory;
 }
 
 /* line 5, ../sass/components/_costum.scss */
-.parallax-container {
-  height: 600px;
-}
-
-/* line 9, ../sass/components/_costum.scss */
-#top {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding-top: 15em;
-  padding-bottom: 15em;
-}
-
-/* line 18, ../sass/components/_costum.scss */
-#top .card {
-  margin: 0px auto !important;
+#top_word {
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  margin-top: 10em !important;
+  margin-bottom: 10em !important;
+  margin: 0px auto;
   width: 400px;
 }
 @media only screen and (max-width: 850px) {
-  /* line 18, ../sass/components/_costum.scss */
-  #top .card {
+  /* line 5, ../sass/components/_costum.scss */
+  #top_word {
     width: 300px;
   }
 }
 
-/* line 28, ../sass/components/_costum.scss */
+/* line 19, ../sass/components/_costum.scss */
+#top_pic {
+  position: fixed;
+  margin-top: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 600px, 0px 600px);
+  clip-path: polygon(0 0, 100% 0, 100% 600px, 0px 600px);
+}
+
+/* line 36, ../sass/components/_costum.scss */
 #about_us {
   margin-top: 30px;
 }
