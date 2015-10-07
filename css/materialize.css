@@ -3349,7 +3349,7 @@ video.responsive-video {
   float: none;
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1020px) {
   /* line 172, ../sass/components/_global.scss */
   .pagination {
     width: 100%;
@@ -3422,77 +3422,77 @@ ul.staggered-list li {
 /*********************
   Media Query Classes
 **********************/
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   /* line 242, ../sass/components/_global.scss */
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important;
   }
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1020px) {
   /* line 247, ../sass/components/_global.scss */
   .hide-on-med-and-down {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 851px) {
+@media only screen and (min-width: 901px) {
   /* line 252, ../sass/components/_global.scss */
   .hide-on-med-and-up {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 850px) and (max-width: 1060px) {
+@media only screen and (min-width: 900px) and (max-width: 1020px) {
   /* line 257, ../sass/components/_global.scss */
   .hide-on-med-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 1061px) {
+@media only screen and (min-width: 1021px) {
   /* line 262, ../sass/components/_global.scss */
   .hide-on-large-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 1061px) {
+@media only screen and (min-width: 1021px) {
   /* line 267, ../sass/components/_global.scss */
   .show-on-large {
     display: initial !important;
   }
 }
 
-@media only screen and (min-width: 850px) and (max-width: 1060px) {
+@media only screen and (min-width: 900px) and (max-width: 1020px) {
   /* line 272, ../sass/components/_global.scss */
   .show-on-medium {
     display: initial !important;
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   /* line 277, ../sass/components/_global.scss */
   .show-on-small {
     display: initial !important;
   }
 }
 
-@media only screen and (min-width: 851px) {
+@media only screen and (min-width: 901px) {
   /* line 282, ../sass/components/_global.scss */
   .show-on-medium-and-up {
     display: initial !important;
   }
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1020px) {
   /* line 287, ../sass/components/_global.scss */
   .show-on-medium-and-down {
     display: initial !important;
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   /* line 295, ../sass/components/_global.scss */
   .center-on-small-only {
     text-align: center;
@@ -3567,7 +3567,7 @@ td, th {
   border-radius: 2px;
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1020px) {
   /* line 372, ../sass/components/_global.scss */
   table.responsive-table {
     width: 100%;
@@ -8114,13 +8114,13 @@ nav ul a span.badge {
   width: 90%;
 }
 
-@media only screen and (min-width: 851px) {
+@media only screen and (min-width: 901px) {
   /* line 7, ../sass/components/_grid.scss */
   .container {
     width: 85%;
   }
 }
-@media only screen and (min-width: 1061px) {
+@media only screen and (min-width: 1021px) {
   /* line 12, ../sass/components/_grid.scss */
   .container {
     width: 70%;
@@ -8278,7 +8278,7 @@ nav ul a span.badge {
 .row .col.offset-s12 {
   margin-left: 100%;
 }
-@media only screen and (min-width: 851px) {
+@media only screen and (min-width: 901px) {
   /* line 77, ../sass/components/_grid.scss */
   .row .col.m1 {
     width: 8.33333%;
@@ -8388,7 +8388,7 @@ nav ul a span.badge {
     margin-left: 100%;
   }
 }
-@media only screen and (min-width: 1061px) {
+@media only screen and (min-width: 1021px) {
   /* line 99, ../sass/components/_grid.scss */
   .row .col.l1 {
     width: 8.33333%;
@@ -8522,7 +8522,7 @@ nav .nav-wrapper i {
   display: block;
   font-size: 2rem;
 }
-@media only screen and (min-width: 1061px) {
+@media only screen and (min-width: 1021px) {
   /* line 24, ../sass/components/_navbar.scss */
   nav a.button-collapse {
     display: none;
@@ -8579,7 +8579,7 @@ nav .brand-logo .top {
   clip-path: polygon(0px 0, 100% 0, calc(100% - 73.9px) 100%, 0px 100%);
   transition: -webkit-clip-path 0.5s, height 0.5s, padding-right0 0.5s;
 }
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1020px) {
   /* line 97, ../sass/components/_navbar.scss */
   nav .brand-logo.left, nav .brand-logo.right {
     padding: 0;
@@ -8695,7 +8695,7 @@ nav .input-field label.active {
   position: fixed;
 }
 
-@media only screen and (min-width: 1061px) {
+@media only screen and (min-width: 1021px) {
   /* line 201, ../sass/components/_navbar.scss */
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 56px;
@@ -8750,7 +8750,7 @@ html {
     font-size: 14px;
   }
 }
-@media only screen and (min-width: 1060px) {
+@media only screen and (min-width: 1020px) {
   /* line 6, ../sass/components/_typography.scss */
   html {
     font-size: 14.5px;
@@ -8851,121 +8851,121 @@ small {
     font-size: 1.2rem;
   }
 }
-@media only screen and (min-width: 377.5px) {
+@media only screen and (min-width: 375px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.224rem;
   }
 }
-@media only screen and (min-width: 395px) {
+@media only screen and (min-width: 390px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.248rem;
   }
 }
-@media only screen and (min-width: 412.5px) {
+@media only screen and (min-width: 405px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.272rem;
   }
 }
-@media only screen and (min-width: 430px) {
+@media only screen and (min-width: 420px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.296rem;
   }
 }
-@media only screen and (min-width: 447.5px) {
+@media only screen and (min-width: 435px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.32rem;
   }
 }
-@media only screen and (min-width: 465px) {
+@media only screen and (min-width: 450px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.344rem;
   }
 }
-@media only screen and (min-width: 482.5px) {
+@media only screen and (min-width: 465px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.368rem;
   }
 }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 480px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.392rem;
   }
 }
-@media only screen and (min-width: 517.5px) {
+@media only screen and (min-width: 495px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.416rem;
   }
 }
-@media only screen and (min-width: 535px) {
+@media only screen and (min-width: 510px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.44rem;
   }
 }
-@media only screen and (min-width: 552.5px) {
+@media only screen and (min-width: 525px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.464rem;
   }
 }
-@media only screen and (min-width: 570px) {
+@media only screen and (min-width: 540px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.488rem;
   }
 }
-@media only screen and (min-width: 587.5px) {
+@media only screen and (min-width: 555px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.512rem;
   }
 }
-@media only screen and (min-width: 605px) {
+@media only screen and (min-width: 570px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.536rem;
   }
 }
-@media only screen and (min-width: 622.5px) {
+@media only screen and (min-width: 585px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.56rem;
   }
 }
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 600px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.584rem;
   }
 }
-@media only screen and (min-width: 657.5px) {
+@media only screen and (min-width: 615px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.608rem;
   }
 }
-@media only screen and (min-width: 675px) {
+@media only screen and (min-width: 630px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.632rem;
   }
 }
-@media only screen and (min-width: 692.5px) {
+@media only screen and (min-width: 645px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.656rem;
   }
 }
-@media only screen and (min-width: 710px) {
+@media only screen and (min-width: 660px) {
   /* line 47, ../sass/components/_typography.scss */
   .flow-text {
     font-size: 1.68rem;
@@ -9160,14 +9160,14 @@ small {
   position: fixed;
   z-index: 10000;
 }
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   /* line 1, ../sass/components/_toast.scss */
   #toast-container {
     min-width: 100%;
     bottom: 0%;
   }
 }
-@media only screen and (min-width: 851px) and (max-width: 1060px) {
+@media only screen and (min-width: 901px) and (max-width: 1020px) {
   /* line 1, ../sass/components/_toast.scss */
   #toast-container {
     min-width: 30%;
@@ -9175,7 +9175,7 @@ small {
     bottom: 7%;
   }
 }
-@media only screen and (min-width: 1061px) {
+@media only screen and (min-width: 1021px) {
   /* line 1, ../sass/components/_toast.scss */
   #toast-container {
     min-width: 8%;
@@ -9221,20 +9221,20 @@ small {
 .toast.rounded {
   border-radius: 24px;
 }
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   /* line 22, ../sass/components/_toast.scss */
   .toast {
     width: 100%;
     border-radius: 0;
   }
 }
-@media only screen and (min-width: 851px) and (max-width: 1060px) {
+@media only screen and (min-width: 901px) and (max-width: 1020px) {
   /* line 22, ../sass/components/_toast.scss */
   .toast {
     float: left;
   }
 }
-@media only screen and (min-width: 1061px) {
+@media only screen and (min-width: 1021px) {
   /* line 22, ../sass/components/_toast.scss */
   .toast {
     float: right;
@@ -9692,7 +9692,7 @@ a.waves-effect .waves-ripple {
   border-radius: 2px;
   will-change: top, opacity;
 }
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1020px) {
   /* line 1, ../sass/components/_modal.scss */
   .modal {
     width: 80%;
@@ -10271,14 +10271,14 @@ textarea.materialize-textarea + label:after {
 .input-field .prefix ~ label {
   margin-left: 3rem;
 }
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1020px) {
   /* line 160, ../sass/components/_form.scss */
   .input-field .prefix ~ input {
     width: 86%;
     width: calc(100% - 3rem);
   }
 }
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   /* line 166, ../sass/components/_form.scss */
   .input-field .prefix ~ input {
     width: 80%;
@@ -11226,7 +11226,7 @@ select {
   left: auto;
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1020px) {
   /* line 80, ../sass/components/_sideNav.scss */
   .side-nav.fixed {
     left: -105%;
@@ -12697,19 +12697,25 @@ body {
 #top_word {
   background-color: rgba(0, 0, 0, 0.65);
   color: white;
-  margin-top: 10em !important;
-  margin-bottom: 10em !important;
+  margin-top: 15em !important;
+  margin-bottom: 11em !important;
   margin: 0px auto;
   width: 400px;
 }
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   /* line 5, ../sass/components/_costum.scss */
   #top_word {
     width: 300px;
   }
 }
+@media only screen and (max-width: 1020px) {
+  /* line 5, ../sass/components/_costum.scss */
+  #top_word {
+    margin-top: 10em !important;
+  }
+}
 
-/* line 19, ../sass/components/_costum.scss */
+/* line 22, ../sass/components/_costum.scss */
 #top_pic {
   position: fixed;
   margin-top: 0px;
@@ -12717,11 +12723,17 @@ body {
   left: 0;
   right: 0;
   width: 100%;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 600px, 0px 600px);
-  clip-path: polygon(0 0, 100% 0, 100% 600px, 0px 600px);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 700px, 0px 700px);
+  clip-path: polygon(0 0, 100% 0, 100% 700px, 0px 700px);
+}
+@media only screen and (max-width: 900px) {
+  /* line 22, ../sass/components/_costum.scss */
+  #top_pic {
+    width: 900px;
+  }
 }
 
-/* line 36, ../sass/components/_costum.scss */
+/* line 45, ../sass/components/_costum.scss */
 #about_us {
   margin-top: 30px;
 }

@@ -1,6 +1,7 @@
   <!DOCTYPE html>
   <html>
     <head>
+      <title>Maker Village</title>
       <link rel="shortcut icon" href="favicon.ico"/>
       <link rel="bookmark" href="favicon.ico"/>
       <!--Import Google Icon Font-->
@@ -32,14 +33,14 @@
           }
 
           //top picture
-          var h = (600-$("body").scrollTop());
+          var h = (700-$("body").scrollTop());
           var value = "-webkit-clip-path: polygon(0 0, 100% 0,100% " + h + "px, 0px "+ h +"px ); clip-path: polygon(0 0, 100% 0,100% " + h + "px, 0px "+ h +"px );";
           $("#top_pic").attr("style", value);
         });
         
       </script>
-     <!--navbar-->
-     <div class="navbar-fixed">
+      <!--navbar-->
+      <div class="navbar-fixed">
         <nav>
           <div class="nav-wrapper red">
             <a href="#" class="brand-logo" ><img class="top" src = "pic/LOGO.png" ></img></a>
@@ -67,9 +68,9 @@
       
 
       <!--content-->
-      <div class="content">
+      <div class="content" >
         <!--about us-->
-        <div id ="about_us" class= "container">
+        <div id ="about_us" class= "container section">
           <div class="card">
             <h4>
               我們是一群喜愛動手做，將腦海中的創意化為現實的夥伴。<br />
@@ -82,9 +83,10 @@
           </div>
         </div>
         
+        <div class="divider"></div>
         <!--device-->
-        <div id ="device" class ="container row">
-          
+        <div id ="device" class ="container row section">
+          <h2>空間器材</h2>
           
           <div class="card medium col s12 m4 l4">
             <div class="card-image">
@@ -100,8 +102,6 @@
             </div>
           </div>
         
-        
-        
           <div class="card medium col s12 m4 l4">
             <div class="card-image">
               <img src="pic/Soldering_iron.jpg">
@@ -111,19 +111,26 @@
               <p>焊出網羅</p>
             </div>
           </div>
-          
 
         </div>
+
+        <div class="divider"></div>
         <!--class info-->
-        <div id ="class_info">
+        <div id ="class_info" class="section container">
+          <h2>課程資訊</h2>
+          <img style="width: 100%" src="pic/class.jpg"></img>
         </div>
         
+        <div class="divider"></div>
         <!--project-->
-        <div id ="project">           
+        <div id ="project" class="section container">  
+          <h2>開發專案</h2>
         </div>
         
+        <div class="divider"></div>
         <!--member-->
-        <div id ="member">
+        <div id ="member" class="section container">
+          <h2>空間成員</h2>
         </div>
       </div>
       

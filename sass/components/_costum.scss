@@ -5,13 +5,16 @@ body{
 #top_word{
 	background-color: rgba(0,0,0,0.65);
 	color: white;
-	margin-top: 10em !important;
-	margin-bottom: 10em !important;
+	margin-top: 15em !important;
+	margin-bottom: 11em !important;
 	margin: 0px auto;
 	width: 400px;
 
 	@media #{$small-and-down} {
 		width: 300px;
+	}
+	@media #{$medium-and-down} {
+		margin-top: 10em !important;
 	}
 	
 }
@@ -26,10 +29,16 @@ body{
 	
 	-webkit-clip-path: 
       polygon(0 0, 100% 0, 
-      100% 600px, 0px 600px);
+      100% 700px, 0px 700px);
     clip-path:
       polygon(0 0, 100% 0, 
-      100% 600px, 0px 600px);
+      100% 700px, 0px 700px);
+    @media #{$small-and-down}
+    {
+ 		width: $small-screen;
+    	//height: 600px;
+    }
+
 }
 
 
