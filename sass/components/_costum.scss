@@ -74,6 +74,15 @@ body{
 
 #about_us{
 	margin-top: 30px;
+
+	.card{
+		//border: 2px solid transparent;
+
+		img{
+			width: 300px;
+		}
+		p{	font-size: 200%;}
+	}
 }
 
 #member{
