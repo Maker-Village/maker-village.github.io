@@ -12763,7 +12763,7 @@ body {
 /* line 54, ../sass/components/_costum.scss */
 #top_btn {
   position: absolute;
-  top: 6.5em;
+  bottom: 5px;
   left: 50%;
   margin-left: -75px;
   height: 50px;
@@ -12774,20 +12774,14 @@ body {
   border: solid 2px rgba(255, 255, 255, 0.6);
   transition: border 0.5s,color 0.5s, background-color 0.5s;
 }
-@media only screen and (max-width: 900px) {
-  /* line 54, ../sass/components/_costum.scss */
-  #top_btn {
-    top: 10.5em;
-  }
-}
-/* line 72, ../sass/components/_costum.scss */
+/* line 68, ../sass/components/_costum.scss */
 #top_btn:hover {
   border: solid 2px rgba(70, 70, 70, 0.6);
   color: #323232;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-/* line 79, ../sass/components/_costum.scss */
+/* line 75, ../sass/components/_costum.scss */
 #about_us {
   margin-top: 30px;
 }
