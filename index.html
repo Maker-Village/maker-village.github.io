@@ -9,18 +9,18 @@
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
       <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"  charset="UTF-8"/>
     </head>
 
     <body>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
-	    <script>
+	    <script type="text/javascript">
         $( window ).scroll(function() {
-
+          //console.log($("body").scrollTop());
           //logo & navbar
-          if($("body").scrollTop()>250){
+          if($(document).scrollTop()>250){
             $('nav .brand-logo .top').removeClass("top");
             $('nav .brand-logo img').attr("src","./pic/LOGO-2.png");
 
@@ -33,11 +33,15 @@
           }
 
           //top picture
-          var h = (700-$("body").scrollTop());
-          var value = "-webkit-clip-path: polygon(0 0, 100% 0,100% " + h + "px, 0px "+ h +"px ); clip-path: polygon(0 0, 100% 0,100% " + h + "px, 0px "+ h +"px );";
+          var h = (670-$(document).scrollTop()*1.2);
+          var value = "clip: rect(0px, 2000px, " + h + "px, 0px); ";
           $("#top_pic").attr("style", value);
         });
         
+        $(document).ready(function(){
+          $('.scrollspy').scrollSpy();
+        });
+
       </script>
       <!--navbar-->
       <div class="navbar-fixed">
@@ -45,12 +49,12 @@
           <div class="nav-wrapper red">
             <a href="#" class="brand-logo" ><img class="top" src = "pic/LOGO.png" ></img></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down ">
-              <li><a href="#">關於我們</a></li><!--about us-->
-              <li><a href="#">空間設備</a></li><!--device-->
-              <li><a href="#">活動資訊</a></li><!--class info-->
-              <li><a href="#">開發專案</a></li><!--project-->
-              <li><a href="#">空間成員</a></li><!--member-->
-              <li><a href="#">贊助芳名</a></li><!--footer-->
+              <li><a href="#about_us">關於我們</a></li>
+              <li><a href="#device">空間設備</a></li>
+              <li><a href="#event_info">活動資訊</a></li>
+              <li><a href="#project">開發專案</a></li>
+              <li><a href="#member">空間成員</a></li>
+              <li><a href="#footer">聯絡我們</a></li>
             </ul>
           </div>
         </nav>
@@ -61,8 +65,13 @@
       
       <img id= "top_pic"src="pic/first_pic.jpg">
       <div id= "top_word" class="card">
-        <div class="card-content">
-          <h1>Life is making!!</h1>
+        <div class="card-content row">
+          <h1>Maker Village</h1>
+          <p>坐落於鳳梨田中的maker space</p>
+          </br>
+          <div class="">
+            <a href="#about_us" class="waves-effect waves-light btn-large" style="margin-left: 6.5em;">關於我們</a>
+          </div>
         </div>
       </div>
       
@@ -70,7 +79,7 @@
       <!--content-->
       <div class="content" >
         <!--about us-->
-        <div id ="about_us" class= "container section">
+        <div id ="about_us" class= "container section  scrollspy">
           <div class="card">
             <h4>
               我們是一群喜愛動手做，將腦海中的創意化為現實的夥伴。<br />
@@ -85,7 +94,7 @@
         
         <div class="divider"></div>
         <!--device-->
-        <div id ="device" class ="container row section">
+        <div id ="device" class ="container row section  scrollspy">
           <h2>空間器材</h2>
           
           <div class="card medium col s12 m4 l4">
@@ -116,7 +125,7 @@
 
         <div class="divider"></div>
         <!--class info-->
-        <div id ="class_info" class="section container">
+        <div id ="event_info" class="section container  scrollspy">
           <h2>課程資訊</h2>
           <img style="width: 100%" src="pic/class.jpg"></img>
         </div>
@@ -125,18 +134,69 @@
         <!--project-->
         <div id ="project" class="section container">  
           <h2>開發專案</h2>
+          <!--Delta 3DP 校平升級-->
+          <!--LED 表演系列-->
+
         </div>
         
         <div class="divider"></div>
         <!--member-->
-        <div id ="member" class="section container">
-          <h2>空間成員</h2>
+        <div id ="member" class="section grey  scrollspy">
+          <div class ="container">
+            <h2>空間成員</h2>
+            <div class="row">
+               
+              <div class="card member col l12 m12 s12 ">
+                <p>路人甲</p>
+                <img src="pic/no-pic.jpg"> </img>
+                <div>
+                  真的只是個路人甲
+                </div>
+              </div>
+
+              <div class="card member col l12 m12 s12 ">
+                <p>路人乙</p>
+                <img src="pic/no-pic.jpg"> </img>            
+                <div>
+                  我是路人乙
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
       </div>
       
       
       <!--footer-->
-      <footer>
+      <footer id="footer" class="grey darken-3">
+       
+       <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">相關連結</h5>
+              <ul class="grey-text text-lighten-4">
+                <li><a href="https://www.facebook.com/ccuMakerVillage">粉絲專頁</a></li>
+                <li><a href="http://maker-village.tk/">部落格</a><li>
+              </ul>
+            </div>
+
+            <div class="col l6 s12">
+              <h5 class="white-text">引用資源</h5>
+              <ul class="grey-text text-lighten-4">
+                <li>jQuery</li>
+                <li>materializecss</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="footer-copyright">
+          <div class="container grey-text text-lighten-4"> 
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本著作由<span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Maker Village</span>製作，以<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">創用CC 姓名標示-非商業性-相同方式分享 4.0 國際 授權條款</a>釋出。
+          </div>
+        </div>
       </footer>
 
     </body>

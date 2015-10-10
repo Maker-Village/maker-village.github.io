@@ -12,11 +12,25 @@ body{
 
 	@media #{$small-and-down} {
 		width: 300px;
+		margin-bottom: 10em !important;
 	}
 	@media #{$medium-and-down} {
 		margin-top: 10em !important;
+
 	}
 	
+	h1,p,a{
+		text-align: center;
+	}
+
+	h1{
+		font-size: 3.5em;
+    	font-family: Berlin Sans FB;
+    	margin-top: 0;
+	}
+	p{
+		font-size: 1.5em;
+	}
 }
 
 #top_pic {
@@ -27,15 +41,11 @@ body{
 	right: 0;
 	width: 100%;
 	
-	-webkit-clip-path: 
-      polygon(0 0, 100% 0, 
-      100% 700px, 0px 700px);
-    clip-path:
-      polygon(0 0, 100% 0, 
-      100% 700px, 0px 700px);
+	clip: rect(0px, 2000px, 670px, 0px);
+
     @media #{$small-and-down}
     {
- 		width: $small-screen;
+ 		width:1020px;
     	//height: 600px;
     }
 
@@ -46,3 +56,6 @@ body{
 	margin-top: 30px;
 }
 
+#member{
+
+}
