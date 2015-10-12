@@ -79,9 +79,15 @@ body{
 		//border: 2px solid transparent;
 
 		img{
-			width: 300px;
+			position: absolute;
+			right: -10px;
+			bottom: 0px;
+			opacity: 0.5;
+			width: 200px;
 		}
-		p{	font-size: 200%;}
+		p{	font-size: 150%;}
+
+		.title{font-size: 200%;}
 	}
 }
 

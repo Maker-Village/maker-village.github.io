@@ -3349,7 +3349,7 @@ video.responsive-video {
   float: none;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 172, ../sass/components/_global.scss */
   .pagination {
     width: 100%;
@@ -3429,7 +3429,7 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 247, ../sass/components/_global.scss */
   .hide-on-med-and-down {
     display: none !important;
@@ -3443,28 +3443,28 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1020px) {
+@media only screen and (min-width: 900px) and (max-width: 1120px) {
   /* line 257, ../sass/components/_global.scss */
   .hide-on-med-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 1021px) {
+@media only screen and (min-width: 1121px) {
   /* line 262, ../sass/components/_global.scss */
   .hide-on-large-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 1021px) {
+@media only screen and (min-width: 1121px) {
   /* line 267, ../sass/components/_global.scss */
   .show-on-large {
     display: initial !important;
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1020px) {
+@media only screen and (min-width: 900px) and (max-width: 1120px) {
   /* line 272, ../sass/components/_global.scss */
   .show-on-medium {
     display: initial !important;
@@ -3485,7 +3485,7 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 287, ../sass/components/_global.scss */
   .show-on-medium-and-down {
     display: initial !important;
@@ -3567,7 +3567,7 @@ td, th {
   border-radius: 2px;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 372, ../sass/components/_global.scss */
   table.responsive-table {
     width: 100%;
@@ -8120,7 +8120,7 @@ nav ul a span.badge {
     width: 85%;
   }
 }
-@media only screen and (min-width: 1021px) {
+@media only screen and (min-width: 1121px) {
   /* line 12, ../sass/components/_grid.scss */
   .container {
     width: 70%;
@@ -8388,7 +8388,7 @@ nav ul a span.badge {
     margin-left: 100%;
   }
 }
-@media only screen and (min-width: 1021px) {
+@media only screen and (min-width: 1121px) {
   /* line 99, ../sass/components/_grid.scss */
   .row .col.l1 {
     width: 8.33333%;
@@ -8522,7 +8522,7 @@ nav .nav-wrapper i {
   display: block;
   font-size: 2rem;
 }
-@media only screen and (min-width: 1021px) {
+@media only screen and (min-width: 1121px) {
   /* line 24, ../sass/components/_navbar.scss */
   nav a.button-collapse {
     display: none;
@@ -8587,7 +8587,7 @@ nav .brand-logo .top {
   -webkit-mask: url(../pic/logo-clip-top.svg);
   transition: -webkit-clip-path 0.5s, clip-path 0.5s, height 0.5s, padding-right0 0.5s;
 }
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 98, ../sass/components/_navbar.scss */
   nav .brand-logo.left, nav .brand-logo.right {
     padding: 0;
@@ -8707,7 +8707,7 @@ nav .input-field label.active {
   position: fixed;
 }
 
-@media only screen and (min-width: 1021px) {
+@media only screen and (min-width: 1121px) {
   /* line 203, ../sass/components/_navbar.scss */
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 56px;
@@ -8762,7 +8762,7 @@ html {
     font-size: 14px;
   }
 }
-@media only screen and (min-width: 1020px) {
+@media only screen and (min-width: 1120px) {
   /* line 6, ../sass/components/_typography.scss */
   html {
     font-size: 14.5px;
@@ -9179,7 +9179,7 @@ small {
     bottom: 0%;
   }
 }
-@media only screen and (min-width: 901px) and (max-width: 1020px) {
+@media only screen and (min-width: 901px) and (max-width: 1120px) {
   /* line 1, ../sass/components/_toast.scss */
   #toast-container {
     min-width: 30%;
@@ -9187,7 +9187,7 @@ small {
     bottom: 7%;
   }
 }
-@media only screen and (min-width: 1021px) {
+@media only screen and (min-width: 1121px) {
   /* line 1, ../sass/components/_toast.scss */
   #toast-container {
     min-width: 8%;
@@ -9240,13 +9240,13 @@ small {
     border-radius: 0;
   }
 }
-@media only screen and (min-width: 901px) and (max-width: 1020px) {
+@media only screen and (min-width: 901px) and (max-width: 1120px) {
   /* line 22, ../sass/components/_toast.scss */
   .toast {
     float: left;
   }
 }
-@media only screen and (min-width: 1021px) {
+@media only screen and (min-width: 1121px) {
   /* line 22, ../sass/components/_toast.scss */
   .toast {
     float: right;
@@ -9704,7 +9704,7 @@ a.waves-effect .waves-ripple {
   border-radius: 2px;
   will-change: top, opacity;
 }
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 1, ../sass/components/_modal.scss */
   .modal {
     width: 80%;
@@ -10283,7 +10283,7 @@ textarea.materialize-textarea + label:after {
 .input-field .prefix ~ label {
   margin-left: 3rem;
 }
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 160, ../sass/components/_form.scss */
   .input-field .prefix ~ input {
     width: 86%;
@@ -11238,7 +11238,7 @@ select {
   left: auto;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 80, ../sass/components/_sideNav.scss */
   .side-nav.fixed {
     left: -105%;
@@ -12722,7 +12722,7 @@ body {
     margin-bottom: 10em !important;
   }
 }
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
   /* line 5, ../sass/components/_costum.scss */
   #top_word {
     margin-bottom: 12em !important;
@@ -12787,9 +12787,17 @@ body {
 }
 /* line 81, ../sass/components/_costum.scss */
 #about_us .card img {
-  width: 300px;
+  position: absolute;
+  right: -10px;
+  bottom: 0px;
+  opacity: 0.5;
+  width: 200px;
 }
-/* line 84, ../sass/components/_costum.scss */
+/* line 88, ../sass/components/_costum.scss */
 #about_us .card p {
+  font-size: 150%;
+}
+/* line 90, ../sass/components/_costum.scss */
+#about_us .card .title {
   font-size: 200%;
 }
