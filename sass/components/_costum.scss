@@ -77,13 +77,12 @@ body{
 
 	.card{
 		//border: 2px solid transparent;
-
+		margin-left: 11px;
+		height: 45em;
+		//margin-right: 1px;
+		
 		img{
-			position: absolute;
-			right: -10px;
-			bottom: 0px;
-			opacity: 0.5;
-			width: 200px;
+			//width: 200px;
 		}
 		p{	font-size: 150%;}
 

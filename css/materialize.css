@@ -12785,19 +12785,16 @@ body {
 #about_us {
   margin-top: 30px;
 }
-/* line 81, ../sass/components/_costum.scss */
-#about_us .card img {
-  position: absolute;
-  right: -10px;
-  bottom: 0px;
-  opacity: 0.5;
-  width: 200px;
+/* line 78, ../sass/components/_costum.scss */
+#about_us .card {
+  margin-left: 11px;
+  height: 45em;
 }
-/* line 88, ../sass/components/_costum.scss */
+/* line 87, ../sass/components/_costum.scss */
 #about_us .card p {
   font-size: 150%;
 }
-/* line 90, ../sass/components/_costum.scss */
+/* line 89, ../sass/components/_costum.scss */
 #about_us .card .title {
   font-size: 200%;
 }
