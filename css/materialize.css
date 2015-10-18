@@ -12702,7 +12702,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 /* line 1, ../sass/components/_costum.scss */
 body {
-  background: ivory;
+  background: ivory url("../pic/first_pic.jpg") no-repeat center top;
 }
 
 /* line 5, ../sass/components/_costum.scss */
@@ -12710,7 +12710,7 @@ body {
   background-color: rgba(0, 0, 0, 0.65);
   color: white;
   margin-top: 15em !important;
-  margin-bottom: 11em !important;
+  margin-bottom: 15em !important;
   margin: 0px auto;
   width: 400px;
 }
@@ -12718,7 +12718,7 @@ body {
   /* line 5, ../sass/components/_costum.scss */
   #top_word {
     width: 300px;
-    margin-top: 12em !important;
+    margin-top: 4em !important;
     margin-bottom: 10em !important;
   }
 }
@@ -12728,22 +12728,22 @@ body {
     margin-bottom: 12em !important;
   }
 }
-/* line 22, ../sass/components/_costum.scss */
+/* line 23, ../sass/components/_costum.scss */
 #top_word h1, #top_word p, #top_word a {
   text-align: center;
 }
-/* line 26, ../sass/components/_costum.scss */
+/* line 27, ../sass/components/_costum.scss */
 #top_word h1 {
   font-size: 3.5em;
   font-family: Berlin Sans FB;
   margin-top: 0;
 }
-/* line 31, ../sass/components/_costum.scss */
+/* line 32, ../sass/components/_costum.scss */
 #top_word p {
   font-size: 1.5em;
 }
 
-/* line 36, ../sass/components/_costum.scss */
+/* line 37, ../sass/components/_costum.scss */
 #top_pic {
   position: fixed;
   margin-top: 0px;
@@ -12754,13 +12754,13 @@ body {
   clip: rect(0px, 2000px, 650px, 0px);
 }
 @media only screen and (max-width: 900px) {
-  /* line 36, ../sass/components/_costum.scss */
+  /* line 37, ../sass/components/_costum.scss */
   #top_pic {
     width: 1020px;
   }
 }
 
-/* line 54, ../sass/components/_costum.scss */
+/* line 55, ../sass/components/_costum.scss */
 #top_btn {
   position: absolute;
   bottom: 5px;
@@ -12774,27 +12774,40 @@ body {
   border: solid 2px rgba(255, 255, 255, 0.6);
   transition: border 0.5s,color 0.5s, background-color 0.5s;
 }
-/* line 68, ../sass/components/_costum.scss */
+/* line 69, ../sass/components/_costum.scss */
 #top_btn:hover {
   border: solid 2px rgba(70, 70, 70, 0.6);
   color: #323232;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-/* line 75, ../sass/components/_costum.scss */
+/* line 76, ../sass/components/_costum.scss */
+.content {
+  background: ivory;
+  padding-top: 30px;
+}
+
+/* line 81, ../sass/components/_costum.scss */
 #about_us {
   margin-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-/* line 78, ../sass/components/_costum.scss */
+/* line 85, ../sass/components/_costum.scss */
 #about_us .card {
-  margin-left: 11px;
-  height: 45em;
+  height: 46em;
 }
-/* line 87, ../sass/components/_costum.scss */
+@media only screen and (min-width: 1121px) {
+  /* line 91, ../sass/components/_costum.scss */
+  #about_us .card img {
+    width: 75%;
+  }
+}
+/* line 100, ../sass/components/_costum.scss */
 #about_us .card p {
   font-size: 150%;
 }
-/* line 89, ../sass/components/_costum.scss */
+/* line 102, ../sass/components/_costum.scss */
 #about_us .card .title {
   font-size: 200%;
 }

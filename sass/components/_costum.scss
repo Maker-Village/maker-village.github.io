@@ -1,22 +1,23 @@
 body{
-	background: rgba(255,255,240,1);
+	background: rgba(255,255,240,1) url("../pic/first_pic.jpg")  no-repeat center top;
 }
 
 #top_word{
 	background-color: rgba(0,0,0,0.65);
 	color: white;
 	margin-top: 15em !important;
-	margin-bottom: 11em !important;
+	margin-bottom: 15em !important;
 	margin: 0px auto;
 	width: 400px;
 
 	@media #{$small-and-down} {
 		width: 300px;
-		margin-top: 12em !important;
+		margin-top: 4em !important;
 		margin-bottom: 10em !important;
 	}
 	@media #{$medium-and-down} {
 		margin-bottom: 12em !important;
+		
 	}
 	
 	h1,p,a{
@@ -40,7 +41,7 @@ body{
 	left: 0;
 	right: 0;
 	width: 100%;
-	
+
 	clip: rect(0px, 2000px, 650px, 0px);
 
     @media #{$small-and-down}
@@ -72,18 +73,30 @@ body{
 	}
 }
 
+.content{
+	background: rgba(255,255,240,1);
+	padding-top: 30px;
+}
+
 #about_us{
 	margin-top: 30px;
-
+	padding-left: 10px;
+	padding-right: 10px;
 	.card{
 		//border: 2px solid transparent;
-		margin-left: 11px;
-		height: 45em;
+		//margin-left: 11px;
+		height: 46em;
 		//margin-right: 1px;
 		
 		img{
-			//width: 200px;
+
+
+			@media #{$large-and-up} {
+				width: 75%;
+			}
 		}
+
+
 		p{	font-size: 150%;}
 
 		.title{font-size: 200%;}
