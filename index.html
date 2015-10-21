@@ -31,16 +31,7 @@
             
             $('nav .nav-wrapper').removeClass("alpha-5");
           }
-
-          //top picture
-          var scal;
-          if( screen.availWidth < 900)
-            scal = 0.9;
-          else
-            scal = 1.07;
-          var h = (650-$(document).scrollTop()*scal);
-          var value = "clip: rect(0px, 2000px, " + h + "px, 0px); ";
-          $("#top_pic").attr("style", value);
+          
         });
         
         $(document).ready(function(){
@@ -82,7 +73,6 @@
       
       <!--fitst picture-->
       
-      <!--<img id= "top_pic"src="pic/first_pic.jpg">-->
       <div id= "top_word" class="card">
         <div class="card-content row">
           <h1><a style="font-size: 135%; color: #FFFFFF ;">M</a>AKER <a style="font-size: 135%; color: #FFFFFF;">V</a>ILLAGE</h1>
