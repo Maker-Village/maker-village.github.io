@@ -6,7 +6,7 @@ body{
 	background-color: rgba(0,0,0,0.65);
 	color: white;
 	margin-top: 15em !important;
-	margin-bottom: 15em !important;
+	margin-bottom: 20em !important;
 	margin: 0px auto;
 	width: 400px;
 
@@ -15,10 +15,7 @@ body{
 		margin-top: 4em !important;
 		margin-bottom: 10em !important;
 	}
-	@media #{$medium-and-down} {
-		margin-bottom: 12em !important;
-		
-	}
+	
 	
 	h1,p,a{
 		text-align: center;
@@ -79,7 +76,7 @@ body{
 }
 
 #about_us{
-	margin-top: 30px;
+	padding-top: 30px;
 	padding-left: 10px;
 	padding-right: 10px;
 	.card{

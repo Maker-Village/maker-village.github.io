@@ -1,4 +1,4 @@
-var data = '{ "member":[
+{ "member":[
 	{
 		"name":"路人J",
 		"pic":"HzDqqEq.jpg",
@@ -9,5 +9,4 @@ var data = '{ "member":[
 		"pic":"HzDqqEq.jpg",
 		"content":"我是路人K\n換行"
 	}
-]}';
-
+]}

@@ -26,7 +26,7 @@ $( window ).scroll(function() {
 
 function Loaddata(){
 
-  console.log(data );
+  
   /*
   var StyleHead = '<li style="white-space: nowrap;"><a  style="display: block;" onclick="ChangeYear(' // href="javascript:ChangeYear(';
   var StyleMiddle1 = ')" touchstart="ChangeYear(';
