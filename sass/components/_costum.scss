@@ -73,7 +73,7 @@ body{
 	}
 }
 
-.content{
+#content{
 	background: rgba(255,255,240,1);
 	padding-top: 30px;
 }
@@ -83,20 +83,12 @@ body{
 	padding-left: 10px;
 	padding-right: 10px;
 	.card{
-		//border: 2px solid transparent;
-		//margin-left: 11px;
-		height: 46em;
-		//margin-right: 1px;
+
+    	@media #{$medium-and-up}
+    	{
+ 			height: 46em;
+    	}
 		
-		img{
-
-
-			@media #{$large-and-up} {
-				width: 75%;
-			}
-		}
-
-
 		p{	font-size: 150%;}
 
 		.title{font-size: 200%;}
@@ -104,5 +96,12 @@ body{
 }
 
 #member{
+	
+	p{    
+		font-size: 150%;
+    	margin-top: 0px;
+	    margin-left: 5px;
+	    margin-bottom: 10px;
+	}
 
 }

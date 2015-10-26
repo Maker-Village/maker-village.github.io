@@ -12793,21 +12793,25 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 85, ../sass/components/_costum.scss */
-#about_us .card {
-  height: 46em;
-}
-@media only screen and (min-width: 1121px) {
-  /* line 91, ../sass/components/_costum.scss */
-  #about_us .card img {
-    width: 75%;
+@media only screen and (min-width: 901px) {
+  /* line 85, ../sass/components/_costum.scss */
+  #about_us .card {
+    height: 46em;
   }
 }
-/* line 100, ../sass/components/_costum.scss */
+/* line 92, ../sass/components/_costum.scss */
 #about_us .card p {
   font-size: 150%;
 }
-/* line 102, ../sass/components/_costum.scss */
+/* line 94, ../sass/components/_costum.scss */
 #about_us .card .title {
   font-size: 200%;
+}
+
+/* line 100, ../sass/components/_costum.scss */
+#member p {
+  font-size: 150%;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-bottom: 10px;
 }

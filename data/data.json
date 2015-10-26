@@ -1,0 +1,13 @@
+var data = '{ "member":[
+	{
+		"name":"路人J",
+		"pic":"HzDqqEq.jpg",
+		"content":""
+	},
+	{
+		"name":"路人K",
+		"pic":"HzDqqEq.jpg",
+		"content":"我是路人K\n換行"
+	}
+]}';
+

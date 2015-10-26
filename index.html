@@ -16,33 +16,9 @@
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
-	    <script type="text/javascript">
-        $( window ).scroll(function() {
-          //console.log($("body").scrollTop());
-          //logo & navbar
-          if($(document).scrollTop()>250){
-            $('nav .brand-logo .top').removeClass("top");
-            $('nav .brand-logo img').attr("src","./pic/LOGO-2.png");
+      <script type="text/javascript" src="data/data.json"></script>
+	    <script type="text/javascript" src="js/load.js"></script>
 
-            $('nav .nav-wrapper').addClass("alpha-5");
-          }else{
-            $('nav .brand-logo img').addClass("top");
-            $('nav .brand-logo img').attr("src","./pic/LOGO.png");
-            
-            $('nav .nav-wrapper').removeClass("alpha-5");
-          }
-          
-        });
-        
-        $(document).ready(function(){
-          $('.scrollspy').scrollSpy();
-          $(".button-collapse").sideNav({
-            edge: 'right',
-            closeOnClick: true
-          });
-        });
-
-      </script>
       <!--navbar-->
       <div class="navbar-fixed">
         <nav>
@@ -78,18 +54,18 @@
           <h1><a style="font-size: 135%; color: #FFFFFF ;">M</a>AKER <a style="font-size: 135%; color: #FFFFFF;">V</a>ILLAGE</h1>
           <p>坐落於鳳梨田中的maker space</p>
           </br>
-          <a id="top_btn" href="#about_us" class="waves-effect waves-light mobile-nav">關於我們</a>
+          <a id="top_btn" href="#content" class="waves-effect waves-light mobile-nav">關於我們</a>
         </div>
       </div>
       
 
       <!--content-->
-      <div class="content" >
+      <div id="content" >
         <!--about us-->
         <div id ="about_us" class= "row section  scrollspy">
           
           <div class="card col s12 m4 l4 row">
-            <img class= "col s12 m12 l12" src="pic/light_bulb.png"></img>
+            <img class= "col offset-s1 s10 m12 offset-l2 l8" src="pic/light_bulb.png"></img>
             <div class="col s12 m12 l12">
               <p class ="title">我們是?</p>
               <p  class= "">
@@ -99,7 +75,7 @@
           </div>
 
           <div class="card col s12 m4 l4 row">
-            <img class= "col s12 m12 l12" src="pic/wrench.png"></img>
+            <img class= "col offset-s1 s10 m12 offset-l2 l8" src="pic/wrench.png"></img>
             <div class="col s12 m12 l12">
               <p class ="title">我們希望?</p>
               <p class= "">
@@ -109,7 +85,7 @@
           </div>
 
           <div class="card col s12 m4 l4 row">
-            <img class= "col s12 m12 l12" src="pic/wrench.png"></img>
+            <img class= "col offset-s1 s10 m12 offset-l2 l8" src="pic/wrench.png"></img>
             <div class="col s12 m12 l12">
               <p class ="title">我們會?</p>
               <p class= "">
@@ -121,9 +97,34 @@
         
         <div class="divider"></div>
         <!--class info-->
-        <div id ="event_info" class="section container  scrollspy">
-          <h2>課程資訊</h2>
-          <img style="width: 100%" src="pic/class.jpg"></img>
+        <div id ="event_info" class="section container scrollspy row">
+          <h2>活動資訊</h2>
+
+          <div class="card col s12 m6 l6">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="pic/class.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">十月活動<i class="material-icons right">more_vert</i></span>
+              <h5><a class ="activator" >詳細資訊</a></h5>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">十月活動<i class="material-icons right">close</i></span>
+              <h5>3D列印工作坊</h5>
+              <p>
+                活動時間: 10/17 (六)<br />
+                地點: 共教121<br />
+                <a href="#">活動紀錄</a>
+              </p>
+              <h5>LED光棍</h5>
+              <p>
+                活動時間: 10/24 (六)<br />
+                地點: Maker Village (活中美妝小舖旁)<br />
+                <a href="#">活動紀錄</a>
+              </p>
+            </div>
+          </div>
+
         </div>
         <!--device-->
         <div id ="device" class ="container row section  scrollspy">
@@ -132,23 +133,20 @@
           <div class="card medium col s12 m4 l4">
             <div class="card-image">
               <img src="pic/3Dprinter.jpg">
-              <span class="card-title">3D 印表機</span>
             </div>
             <div class="card-content">
+              <span class="card-title grey-text text-darken-4">3D 印表機</span>
               <p>創造你的無限可能</p>
             </div>
-            <div class="card-action">
-              <a href="#">代印服務</a>
-              <a href="#">線上估價</a>
-            </div>
+
           </div>
         
           <div class="card medium col s12 m4 l4">
             <div class="card-image">
               <img src="pic/Soldering_iron.jpg">
-              <span class="card-title">電子焊接器材</span>
             </div>
             <div class="card-content">
+              <span class="card-title  grey-text text-darken-4">電子焊接器材</span>
               <p>焊出網羅</p>
             </div>
           </div>
@@ -173,18 +171,18 @@
             <h2>空間成員</h2>
             <div class="row">
                
-              <div class="card member col l12 m12 s12 ">
+              <div class="card member col l12 m12 s12 row">
                 <p>路人甲</p>
-                <img src="pic/no-pic.jpg"> </img>
-                <div>
+                <img src="pic/head/HzDqqEq.jpg" class="col l2 m2 s12"> </img>
+                <div class="profile col l10 m10 s12">
                   真的只是個路人甲
                 </div>
               </div>
 
-              <div class="card member col l12 m12 s12 ">
+              <div class="card member col l12 m12 s12 row">
                 <p>路人乙</p>
-                <img src="pic/no-pic.jpg"> </img>            
-                <div>
+                <img src="pic/no-pic.jpg" class="col l2 m2 s12"> </img>            
+                <div class="profile col l10 m10 s12">
                   我是路人乙
                 </div>
               </div>
@@ -200,15 +198,25 @@
        
        <div class="container">
           <div class="row">
-            <div class="col l6 s12">
+            <div class="col l4 s12">
+              <h5 class="white-text">聯絡資訊</h5>
+              <ul class="grey-text text-lighten-4">
+                <li>空間地點: 國立中正大學活動中心斜角巷3095(郵局旁)</li>
+                <li>開放時間: 每周一到周四 17:00~22:00<li>
+                <li>email: <a href="mailto:ccumakervillage@gmail.com">ccumakervillage@gmail.com<a></li>
+              </ul>
+            </div>
+
+            <div class="col l4 s12">
               <h5 class="white-text">相關連結</h5>
               <ul class="grey-text text-lighten-4">
                 <li><a href="https://www.facebook.com/ccuMakerVillage">粉絲專頁</a></li>
+                <li><a href="https://www.facebook.com/groups/639064532812552/">討論區</a></li>
                 <li><a href="http://maker-village.tk/">部落格</a><li>
               </ul>
             </div>
 
-            <div class="col l6 s12">
+            <div class="col l4 s12">
               <h5 class="white-text">引用資源</h5>
               <ul class="grey-text text-lighten-4">
                 <li>jQuery</li>
