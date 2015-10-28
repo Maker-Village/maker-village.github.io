@@ -1,12 +1,64 @@
-{ "member":[
-	{
-		"name":"路人J",
-		"pic":"HzDqqEq.jpg",
-		"content":""
-	},
-	{
-		"name":"路人K",
-		"pic":"HzDqqEq.jpg",
-		"content":"我是路人K\n換行"
-	}
-]}
+var data = {
+
+	"event":[
+
+	],
+
+	"device": [
+	],
+
+	"project":[
+ 	],
+
+	"member":[
+		{
+			"name":"吳秩達",
+			"head":"830437.jpg",
+			"post":"Maker Village 共同創辦人",
+			"profile":"對科學頗有熱情的小小科青。希望作出讓人幸福的東西～"
+		},
+		{
+			"name":"黃俊穎",
+			"head":"DJ4nfI2.jpg",
+			"post":"Maker Village共同創辦人、課程部",
+			"profile":"不要問我做這個能幹嘛，請問我為什麼想要這麼做，雖然答案通常會是\"因為我爽~\""
+		},
+		{
+			"name":"許軒懷",
+			"head":"HzDqqEq.jpg",
+			"post":"Maker Village共同創辦人、網路部",
+			"profile":"總是在機械與程式碼之間擺盪，最近多了個3DP\n想要自幹一台3DP"
+		},
+		{
+			"name":"張瑜芬",
+			"head":"",
+			"post":"Maker Village 行銷部、粉專小編",
+			"profile":""
+		},
+		{
+			"name":"葉卜綺",
+			"head":"12180.jpg",
+			"post":"Maker Village 課程活動部",
+			"profile":"最近正在努力嘗試做出一台飛行器 BP\n一起來MV動手做吧！"
+		},
+		{
+			"name":"林德祐",
+			"head":"oNDlqbY.jpg",
+			"post":"Maker Village 課程活動部",
+			"profile":"我是個小MAKER>.^"
+		},
+		{
+			"name":"許詔雯",
+			"head":"",
+			"post":"Maker Village 財務部",
+			"profile":""
+		},
+		{
+			"name":"蕭育禮",
+			"head":"fo4JcJC.jpg",
+			"post":"Maker Village 小小兵",
+			"profile":"想要一個微波爐來微波BANANA～\nI am not a Maker , I am a Minion !"
+		} 
+ 	]	
+
+};
