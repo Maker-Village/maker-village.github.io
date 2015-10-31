@@ -27,7 +27,7 @@
           <div class="nav-wrapper red">
             <a href="#" class="brand-logo" ><img class="top" src = "pic/LOGO.png" ></img></a>
             <ul class="right hide-on-med-and-down ">
-              <li><a href="#about_us">關於我們</a></li>
+              <li><a href="#about_us_content">關於我們</a></li>
               <li><a href="#event_info">活動資訊</a></li>
               <li><a href="#device">空間設備</a></li>
               <li><a href="#project">開發專案</a></li>
@@ -37,7 +37,7 @@
             </ul>
 
             <ul id="mobile-nav" class="side-nav">
-              <li><a href="#about_us">關於我們</a></li>
+              <li><a href="#about_us_content">關於我們</a></li>
               <li><a href="https://www.facebook.com/ccuMakerVillage">粉絲專頁</a></li>
               <li><a href="#event_info">活動資訊</a></li>
               <li><a href="#device">空間設備</a></li>
@@ -59,7 +59,7 @@
           <h1><a style="font-size: 135%; color: #FFFFFF ;">M</a>AKER <a style="font-size: 135%; color: #FFFFFF;">V</a>ILLAGE</h1>
           <p>坐落於鳳梨田中的maker space</p>
           </br>
-          <a id="top_btn" href="#about_us" class="waves-effect waves-light mobile-nav">關於我們</a>
+          <a id="top_btn" href="#about_us_content" class="waves-effect waves-light mobile-nav">關於我們</a>
         </div>
       </div>
       
@@ -69,10 +69,10 @@
         <!--about us-->
         <div id ="about_us" class= "row section  scrollspy">
           
-          <div class="card col s12 m4 l4 row">
-            <img class= "col offset-s1 s10 m12 offset-l2 l8" src="pic/light_bulb.png"></img>
-            <div class="col s12 m12 l12">
-              <p class ="title">我們是?</p>
+          <div class="card col s12 m4 l4 row scrollspy" >
+            <img class= "col offset-s1 s10 m12 offset-l2 l8 scrollspy" id ="about_us_content"  src="pic/light_bulb.png"></img>
+            <div class="col s12 m12 l12 scrollspy" >
+              <p class ="title" >我們是?</p>
               <p  class= "">
                 我們是一群喜愛動手做，將腦海中的創意實作出來的夥伴
               </p>
@@ -176,79 +176,7 @@
         <div id ="member" class="section grey  scrollspy">
           <div class ="container">
             <h2>空間成員</h2>
-            <div id="member_c" class="row">
-              <div class="card member col l12 m12 s12 row">
-                <img src="pic/head/830437.jpg" class="col l2 m2 s12"> </img>
-                <div class="profile col l10 m10 s12">
-                <p>吳秩達</p>
-                <p>Maker Village 共同創辦人</p>
-                對科學頗有熱情的小小科青。希望作出讓人幸福的東西～
-                </div>
-              </div>
-
-              <div class="card member col l12 m12 s12 row">
-                <img src="pic/head/DJ4nfI2.jpg" class="col l2 m2 s12"> </img> 
-                <div class="profile col l10 m10 s12">
-                  <p>黃俊穎</p>
-                  <p>Maker Village共同創辦人、課程部</p>
-                  不要問我做這個能幹嘛，請問我為什麼想要這麼做，雖然答案通常會是"因為我爽~"
-                </div>
-              </div>
-
-              <div class="card member col l12 m12 s12 row">
-                <img src="pic/head/HzDqqEq.jpg" class="col l2 m2 s12"> </img> 
-                <div class="profile col l10 m10 s12">
-                  <p>許軒懷</p>
-                  <p>Maker Village共同創辦人、網路部</p>
-                  總是在機械與程式碼之間擺盪，最近多了個3DP<br />想要自幹一台3DP
-                </div>
-              </div>
-
-              <div class="card member col l12 m12 s12 row">
-                <img src="pic/no-pic.jpg" class="col l2 m2 s12"> </img> 
-                <div class="profile col l10 m10 s12">
-                <p>張瑜芬</p>
-                <p>Maker Village 行銷部、粉專小編</p>
-                </div>
-              </div>
-
-              <div class="card member col l12 m12 s12 row">
-                <img src="pic/head/12180.jpg" class="col l2 m2 s12"> </img> 
-                <div class="profile col l10 m10 s12">
-                  <p>葉卜綺</p>
-                  <p>Maker Village 課程活動部</p>
-                  最近正在努力嘗試做出一台飛行器 BP<br />一起來MV動手做吧！
-                </div>
-              </div>
-
-              <div class="card member col l12 m12 s12 row">
-                <img src="pic/head/oNDlqbY.jpg" class="col l2 m2 s12"> </img> 
-                <div class="profile col l10 m10 s12">
-                  <p>林德祐</p>
-                  <p>Maker Village 課程活動部</p>
-                  我是個小MAKER>.^
-                </div>
-              </div>
-
-              <div class="card member col l12 m12 s12 row">
-                <img src="pic/no-pic.jpg" class="col l2 m2 s12"> </img> 
-                <div class="profile col l10 m10 s12">
-                  <p>許詔雯</p>
-                  <p>Maker Village 財務部</p>
-                </div>
-              </div>
-
-              <div class="card member col l12 m12 s12 row">
-                <img src="pic/head/fo4JcJC.jpg" class="col l2 m2 s12"> </img> 
-                <div class="profile col l10 m10 s12">
-                  <p>蕭育禮</p>
-                  <p>Maker Village 小小兵</p>
-                  想要一個微波爐來微波BANANA～<br />I am not a Maker , I am a Minion !
-
-                </div>
-              </div>
-
-            </div>
+            <div class="member_c row"></div>
           </div>
         </div>
       </div>
