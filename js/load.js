@@ -5,7 +5,8 @@ $(document).ready(function(){
     edge: 'right',
     closeOnClick: true
   });
-   LoadMember();
+  fixfpic();
+  LoadMember();
 });
 
 //scroll
@@ -23,6 +24,15 @@ $( window ).scroll(function() {
     $('nav .nav-wrapper').removeClass("alpha-5");
   }
 });
+
+function fixfpic(){
+  var h = window.screen.availHeight;
+  var top = (h - $('#top_word').height())/2 - $(".navbar-fixed").height() - 20;
+  var bottom = (h - $('#top_word').height())/2 - $(".navbar-fixed").height() -60;
+  $('#top_word').css("margin-top",top + "px");
+  $('#top_word').css("margin-bottom",bottom + "px");
+
+}
 
 function LoadMember(){
   /* 格式
@@ -51,7 +61,8 @@ function LoadMember(){
     var image = image0 + headsrc(i) +image1;
     var name = p + data.member[i].name + pe;
     var post = p + data.member[i].post + pe;
-    var as = cardhead+ image + prohead + name + post + data.member[i].profile + end + end;
+    var profile = data.member[i].profile.replace(/\n/g,"<br />") ;
+    var as = cardhead+ image + prohead + name + post + profile + end + end;
     //console.log(as);
     str = str + as;
   }
