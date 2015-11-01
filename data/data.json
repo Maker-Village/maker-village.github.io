@@ -1,10 +1,17 @@
 var data = {
 
 	"event":[
-
+		{
+			"title": "十月活動",
+			"pic" : "2015.10.jpg",
+			"subevent":[]
+		}
 	],
 
 	"device": [
+		{
+
+		}
 	],
 
 	"project":[

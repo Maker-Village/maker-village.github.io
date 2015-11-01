@@ -27,8 +27,8 @@ $( window ).scroll(function() {
 
 function fixfpic(){
   var h = window.screen.availHeight;
-  var top = (h - $('#top_word').height())/2 - $(".navbar-fixed").height() - 20;
-  var bottom = (h - $('#top_word').height())/2 - $(".navbar-fixed").height() -60;
+  var top = (h - $('#top_word').height())/2 - $(".navbar-fixed").height();
+  var bottom = (h - $('#top_word').height())/2 - $(".navbar-fixed").height();
   $('#top_word').css("margin-top",top + "px");
   $('#top_word').css("margin-bottom",bottom + "px");
 
