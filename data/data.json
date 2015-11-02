@@ -4,7 +4,22 @@ var data = {
 		{
 			"title": "十月活動",
 			"pic" : "2015.10.jpg",
-			"subevent":[]
+			"subevent":[
+				{
+					"title" :"3D列印工作坊",
+					"time"  :"10/17 (六)",
+					"place" :"共教121",
+					"signup":"",
+					"record":"https://www.facebook.com/media/set/?set=a.643554989081079.1073741831.610943155675596"
+				},
+				{
+					"title" :"LED光棍",
+					"time"  :"10/24 (六)",
+					"place" :"Maker Village (活中美妝小舖旁)",
+					"signup":"",
+					"record":""
+				}
+			]
 		}
 	],
 
@@ -37,8 +52,14 @@ var data = {
 			"profile":"總是在機械與程式碼之間擺盪，最近多了個3DP\n想要自幹一台3DP"
 		},
 		{
-			"name":"張瑜芬",
+			"name":"黃昱峯",
 			"head":"",
+			"post":"Maker Village 網路部",
+			"profile":""
+		},
+		{
+			"name":"張瑜芬",
+			"head":"4HDidSO.jpg",
 			"post":"Maker Village 行銷部、粉專小編",
 			"profile":""
 		},

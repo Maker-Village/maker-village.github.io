@@ -7,6 +7,8 @@ $(document).ready(function(){
   });
   fixfpic();
   LoadMember();
+
+
 });
 
 //scroll
@@ -33,7 +35,45 @@ function fixfpic(){
   $('#top_word').css("margin-bottom",bottom + "px");
 
 }
+/*Load the event*/
+function LoadEvent(){
+  /*
+  <div class="card col s12 m6 l6">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="pic/event/2015.10.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">[title]<i class="material-icons right">more_vert</i></span>
+      <h5><a class ="activator" >詳細資訊</a></h5>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">[title]<i class="material-icons right">close</i></span>
+      <h5>[subevent.title]</h5>
+      <p>
+        活動時間: [time]<br />
+        地點: [place]<br />
+        <a href="[record]">活動紀錄</a>
+      </p>
+    </div>
+  </div>
+  */
 
+  var cardH = '<div class="card col s12 m6 l6">';
+  var contentH = '<div class="card-content"><span class="card-title activator grey-text text-darken-4">';
+  var contentE = '<i class="material-icons right">more_vert</i></span><h5><a class ="activator" >詳細資訊</a></h5>';
+  var revealH = ' <div class="card-reveal">';
+  var revealTH = '<span class="card-title grey-text text-darken-4">';
+  var revealTH = '<i class="material-icons right">close</i></span>';
+
+
+
+
+}
+function ecentLink(i,j){
+
+}
+
+/*Load the member*/
 function LoadMember(){
   /* 格式
     <div class="card col l12 m12 s12 row">
@@ -77,3 +117,4 @@ function headsrc(i){
   else
     return "pic/no-pic.jpg"
 }
+
