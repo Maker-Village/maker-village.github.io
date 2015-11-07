@@ -12807,3 +12807,9 @@ body {
   margin-left: 5px;
   margin-bottom: 10px;
 }
+
+/* line 112, ../sass/components/_costum.scss */
+#event_info .card .event-bold {
+  font-size: 110%;
+  font-weight: bold;
+}
