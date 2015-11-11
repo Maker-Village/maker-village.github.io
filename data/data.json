@@ -40,7 +40,7 @@ var data = {
 					"time"    :"11/23 (一) 1800-2000",
 					"place"   :"",
 					"content" :"多旋翼飛行器拉近了我們與天空的距離，\n透過全新的視角我們將重新認識這片土地---Arklab\n一起來聽多旋翼的專家--張東琳\n為我們分享動手做的精神與未來展望吧",
-					"signup"  :"",
+					"signup"  :"http://maker-village.tk/?page_id=9",
 					"record"  :""
 				},
 				{
