@@ -7,7 +7,7 @@ $(document).ready(function(){
   });
   fixfpic();
   LoadMember();
-
+  LoadEvent();
 
 });
 
@@ -38,23 +38,97 @@ function fixfpic(){
 /*Load the event*/
 function LoadEvent(){
   /*
-  
+  <div class="card col s12 m6 l6">
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">[title]<a class="right activator">More</a></span>
+    </div>
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="pic/event/[pic]">
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">[title]<i class="material-icons right">close</i></span>
+      <div class="divider"></div>
+      <h5>[subevent.title]</h5>
+      <p>
+        <span class="event-bold">
+          [eventTime]
+          [eventPlace]
+        </span>
+        [content]
+        [eventSign]
+        [eventRecord]
+      </p>
+      
+    </div>
+  </div>
+
   */
 
-  var cardH = '<div class="card col s12 m6 l6">';
-  var contentH = '<div class="card-content"><span class="card-title activator grey-text text-darken-4">';
-  var contentE = '<i class="material-icons right">more_vert</i></span><h5><a class ="activator" >詳細資訊</a></h5>';
-  var revealH = ' <div class="card-reveal">';
-  var revealTH = '<span class="card-title grey-text text-darken-4">';
-  var revealTH = '<i class="material-icons right">close</i></span>';
+  $(".event_c").empty(); //清空menu內容
+  var str = "";
+  
+  for(var i =0; i < data.event.length; i++)
+  { 
+    
+    var title = '<div class="card-content"><span class="card-title activator grey-text text-darken-4">' + data.event[i].title + '<a class="right activator">More</a></span></div>';
+    var pic = '<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="pic/event/' + data.event[i].pic +'"></div>';
+    var contentTitle = '<span class="card-title grey-text text-darken-4">'+ data.event[i].title +'<i class="material-icons right">close</i></span>';
+    var divide = '<div class="divider"></div>';
+    var subevent = '';
+    for(var j =0; j < data.event[i].subevent.length; j++)
+    {
+        subevent += divide;
+        subevent += '<h5>'+ data.event[i].subevent[j].title +'</h5>';
+        subevent += '<p><span class="event-bold">' + eventTime(i,j) + eventPlace(i,j) + '</span>';
+        subevent += data.event[i].subevent[j].content.replace(/\n/g,"<br />") ;
+        subevent += eventSign(i,j) + '<br />' + eventRecord(i,j) + '</p>';
+    }
+    str += '<div class="card col s12 m6 l6">' + title + pic + '<div class="card-reveal">'+ contentTitle + subevent +'</div></div>';
+  }
 
+  $(".event_c").append(str);
 
-
-
+  return 0;
 }
-function ecentLink(i,j){
 
+function eventTime(i,j){
+  T = data.event[i].subevent[j].time;
+
+  if(T != "")
+    return '活動時間: ' + T +'<br />' ;
+  else
+    return '';
 }
+
+function eventPlace(i,j){
+  P = data.event[i].subevent[j].place;
+
+  if(P != "")
+    return '活動地點: ' + P +'<br />' ;
+  else
+    return '';
+}
+
+function eventSign(i,j){
+  S = data.event[i].subevent[j].signup;
+
+  if(S != "")
+    return '<a href="' + S +'">我要報名</a>';
+  else
+    return '';
+}
+
+function eventRecord(i,j){
+  R = data.event[i].subevent[j].record;
+
+  if(R != "")
+   return '<a href="' + R +'">活動紀錄</a>';
+ else
+    return '';
+}
+
+
+
 
 /*Load the member*/
 function LoadMember(){

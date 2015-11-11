@@ -6,18 +6,50 @@ var data = {
 			"pic" : "2015.10.jpg",
 			"subevent":[
 				{
-					"title" :"3D列印工作坊",
-					"time"  :"10/17 (六)",
-					"place" :"共教121",
-					"signup":"",
-					"record":"https://www.facebook.com/media/set/?set=a.643554989081079.1073741831.610943155675596"
+					"title"   :"3D列印工作坊",
+					"time"    :"10/17 (六)",
+					"place"   :"共教121",
+					"content" :"",
+					"signup"  :"",
+					"record"  :"https://www.facebook.com/media/set/?set=a.643554989081079.1073741831.610943155675596"
 				},
 				{
-					"title" :"LED光棍",
-					"time"  :"10/24 (六)",
-					"place" :"Maker Village (活中美妝小舖旁)",
-					"signup":"",
-					"record":""
+					"title"   :"LED光棍",
+					"time"    :"10/24 (六)",
+					"place"   :"Maker Village (活中美妝小舖旁)",
+					"content" :"",
+					"signup"  :"",
+					"record"  :"https://www.facebook.com/media/set/?set=a.643829205720324.1073741832.610943155675596"
+				}
+			]
+		},
+		{
+			"title": "十一月活動",
+			"pic" : "2015.11.jpg",
+			"subevent":[
+				{
+					"title"   :"LED Poi",
+					"time"    :"11/21 (六) 1400-1700",
+					"place"   :"Maker Village (活中美妝小舖旁)",
+					"content" :"上次好多人錯過了LED棍的課程\n別擔心這次有LED Poi\n讓你的表演更精彩\n一起動手做出屬於自己的光與美吧",
+					"signup"  :"",
+					"record"  :""
+				},
+				{
+					"title"   :"Maker大未來與Arklab飛行夢",
+					"time"    :"11/23 (一) 1800-2000",
+					"place"   :"",
+					"content" :"多旋翼飛行器拉近了我們與天空的距離，\n透過全新的視角我們將重新認識這片土地---Arklab\n一起來聽多旋翼的專家--張東琳\n為我們分享動手做的精神與未來展望吧",
+					"signup"  :"",
+					"record"  :""
+				},
+				{
+					"title"   :"Maker Faire Tainan",
+					"time"    :"11/28(六)、29(日) 1000-1700 ",
+					"place"   :"",
+					"content" :"",
+					"signup"  :"",
+					"record"  :""
 				}
 			]
 		}
