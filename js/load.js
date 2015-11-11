@@ -80,7 +80,7 @@ function LoadEvent(){
         subevent += divide;
         subevent += '<h5>'+ data.event[i].subevent[j].title +'</h5>';
         subevent += '<p><span class="event-bold">' + eventTime(i,j) + eventPlace(i,j) + '</span>';
-        subevent += data.event[i].subevent[j].content.replace(/\n/g,"<br />") ;
+        subevent += data.event[i].subevent[j].content.replace(/\n/g,"<br />") + '</br>' ;
         subevent += eventSign(i,j) + '<br />' + eventRecord(i,j) + '</p>';
     }
     str += '<div class="card col s12 m6 l6">' + title + pic + '<div class="card-reveal">'+ contentTitle + subevent +'</div></div>';
