@@ -12808,12 +12808,32 @@ body {
   margin-bottom: 10px;
 }
 
-/* line 112, ../sass/components/_costum.scss */
+/* line 111, ../sass/components/_costum.scss */
 #event_info .card .event-bold {
   font-size: 110%;
   font-weight: bold;
 }
-/* line 116, ../sass/components/_costum.scss */
+/* line 115, ../sass/components/_costum.scss */
 #event_info .card .eventBtn {
   margin: 3px;
+}
+
+/* line 123, ../sass/components/_costum.scss */
+#device .card .card-image {
+  height: 400px;
+  -webkit-background-size: auto 100% !important;
+  -moz-background-size: auto 100% !important;
+  background-size: auto 100% !important;
+  background-repeat: no-repeat !important;
+  background-position: center bottom !important;
+}
+@media only screen and (max-width: 900px) {
+  /* line 123, ../sass/components/_costum.scss */
+  #device .card .card-image {
+    height: 250px;
+  }
+}
+/* line 135, ../sass/components/_costum.scss */
+#device .card .card-image img {
+  margin-bottom: 0px;
 }

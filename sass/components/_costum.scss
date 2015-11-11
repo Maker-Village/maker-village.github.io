@@ -108,7 +108,6 @@ body{
 
 #event_info{
 	.card{
-		//height: 600px;
 		.event-bold{
 			font-size: 110%; 
 			font-weight: bold;
@@ -119,3 +118,24 @@ body{
 	}
 }
 
+#device{
+	.card{
+		.card-image {
+			height: 400px;
+
+			
+			-webkit-background-size: auto 100%!important;
+			-moz-background-size: auto 100%!important;
+			background-size: auto 100%!important;
+			background-repeat: no-repeat !important;
+			background-position: center bottom !important;
+			@media#{$small-and-down}{
+				height: 250px;
+			}
+			img{
+				margin-bottom: 0px;
+			}
+		}
+		
+	}
+}
