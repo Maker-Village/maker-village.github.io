@@ -12813,3 +12813,7 @@ body {
   font-size: 110%;
   font-weight: bold;
 }
+/* line 116, ../sass/components/_costum.scss */
+#event_info .card .eventBtn {
+  margin: 3px;
+}

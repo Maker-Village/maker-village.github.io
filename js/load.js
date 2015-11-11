@@ -81,7 +81,7 @@ function LoadEvent(){
         subevent += '<h5>'+ data.event[i].subevent[j].title +'</h5>';
         subevent += '<p><span class="event-bold">' + eventTime(i,j) + eventPlace(i,j) + '</span>';
         subevent += data.event[i].subevent[j].content.replace(/\n/g,"<br />") + '</br>' ;
-        subevent += eventSign(i,j) + '<br />' + eventRecord(i,j) + '</p>';
+        subevent += eventSign(i,j) + eventRecord(i,j) + '</p>';
     }
     str += '<div class="card col s12 m6 l6">' + title + pic + '<div class="card-reveal">'+ contentTitle + subevent +'</div></div>';
   }
@@ -113,7 +113,7 @@ function eventSign(i,j){
   S = data.event[i].subevent[j].signup;
 
   if(S != "")
-    return '<a href="' + S +'">我要報名</a>';
+    return '<a class="red darken-1 waves-effect waves-light btn eventBtn" href="' + S +'">我要報名</a>';
   else
     return '';
 }
@@ -122,7 +122,7 @@ function eventRecord(i,j){
   R = data.event[i].subevent[j].record;
 
   if(R != "")
-   return '<a href="' + R +'">活動紀錄</a>';
+   return '<a class="red darken-1 waves-effect waves-light btn eventBtn" href="' + R +'">活動紀錄</a>';
  else
     return '';
 }
