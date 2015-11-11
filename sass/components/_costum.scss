@@ -100,10 +100,6 @@ body{
 	    margin-left: 5px;
 	    margin-bottom: 10px;
 	}
-	img{
-		//width: 120px;
-	}
-
 }
 
 #event_info{
@@ -112,6 +108,11 @@ body{
 			font-size: 110%; 
 			font-weight: bold;
 		}
+
+		p{
+			font-size: 120%;
+		}
+
 		.eventBtn{
 			margin: 3px;
 		}
@@ -135,6 +136,13 @@ body{
 			img{
 				margin-bottom: 0px;
 			}
+		}
+
+		p{
+			font-size: 120%;
+		}
+		.deviceBtn{
+			margin-bottom: 6px;
 		}
 		
 	}

@@ -57,7 +57,37 @@ var data = {
 
 	"device": [
 		{
-
+			"title":"3D 印表機",
+			"pic":"3Dprinter.jpg",
+			"content":"空間共有兩台3D印表機，機型分別為XYZ機構的SciBot與Delta機構的Kossel，詳細機體參數請點下方連結",
+			"info":[
+				{
+					"name":"SciBot",
+					"link":"https://makerspacexccu.hackpad.com/3DP-Tip-FKbnaxyFWqY"
+				},
+				{
+					"name":"Kossel",
+					"link":"https://makerspacexccu.hackpad.com/3DP-Tip-FKbnaxyFWqY"
+				}
+			]
+		},
+		{
+			"title":"電子焊接器材",
+			"pic":"Soldering_iron.jpg",
+			"content":"創造你的無限可能",
+			"info":[]
+		},
+		{
+			"title":"示波器",
+			"pic":"",
+			"content":"",
+			"info":[]
+		},
+		{
+			"title":"電源供應器",
+			"pic":"",
+			"content":"",
+			"info":[]
 		}
 	],
 

@@ -12808,17 +12808,21 @@ body {
   margin-bottom: 10px;
 }
 
-/* line 111, ../sass/components/_costum.scss */
+/* line 107, ../sass/components/_costum.scss */
 #event_info .card .event-bold {
   font-size: 110%;
   font-weight: bold;
 }
-/* line 115, ../sass/components/_costum.scss */
+/* line 112, ../sass/components/_costum.scss */
+#event_info .card p {
+  font-size: 120%;
+}
+/* line 116, ../sass/components/_costum.scss */
 #event_info .card .eventBtn {
   margin: 3px;
 }
 
-/* line 123, ../sass/components/_costum.scss */
+/* line 124, ../sass/components/_costum.scss */
 #device .card .card-image {
   height: 400px;
   -webkit-background-size: auto 100% !important;
@@ -12828,12 +12832,20 @@ body {
   background-position: center bottom !important;
 }
 @media only screen and (max-width: 900px) {
-  /* line 123, ../sass/components/_costum.scss */
+  /* line 124, ../sass/components/_costum.scss */
   #device .card .card-image {
     height: 250px;
   }
 }
-/* line 135, ../sass/components/_costum.scss */
+/* line 136, ../sass/components/_costum.scss */
 #device .card .card-image img {
   margin-bottom: 0px;
+}
+/* line 141, ../sass/components/_costum.scss */
+#device .card p {
+  font-size: 120%;
+}
+/* line 144, ../sass/components/_costum.scss */
+#device .card .deviceBtn {
+  margin-bottom: 6px;
 }

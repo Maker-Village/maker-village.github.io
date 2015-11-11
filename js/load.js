@@ -7,6 +7,7 @@ $(document).ready(function(){
   });
   fixfpic();
   LoadMember();
+  LoadDevice();
   LoadEvent();
 
 });
@@ -35,7 +36,8 @@ function fixfpic(){
   $('#top_word').css("margin-bottom",bottom + "px");
 
 }
-/*Load the event*/
+
+/**Load the event**/
 function LoadEvent(){
   /*
   <div class="card col s12 m6 l6">
@@ -58,10 +60,8 @@ function LoadEvent(){
         [eventSign]
         [eventRecord]
       </p>
-      
     </div>
   </div>
-
   */
 
   $(".event_c").empty(); //清空menu內容
@@ -127,10 +127,63 @@ function eventRecord(i,j){
     return '';
 }
 
+/**Load the device**/
+function LoadDevice(){
+  /*
+  <div class="card col s12 m6 l6">
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">[title]<a class="right activator">詳細</a></span>
+    </div>
+    <div style="background: url('pic/device/[pic]')" class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="pic/trans_pic.png">
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">[title]<i class="material-icons right">close</i></span>
+      <p>
+        [content]
+        [deviceInfo]
+      </p>
+    </div>
+  </div>
+  */
 
+  var partA = '<div class="card col s12 m6 l6"><div class="card-content"><span class="card-title activator grey-text text-darken-4">';
+  var partB = '<a class="right activator">詳細</a></span></div><div style="background: url(\' pic/device/';
+  var partC = '\')" class="card-image waves-effect waves-block waves-light"><img class="activator" src="pic/trans_pic.png"></div><div class="card-reveal"><span class="card-title grey-text text-darken-4">';
+  var partD = '<i class="material-icons right">close</i></span><p class="row">';
+  var partE = '</p></div></div>';
 
+  $(".device_c").empty(); //清空內容
+  var str = "";
 
-/*Load the member*/
+  for(var i =0; i < data.device.length; i++)
+  { 
+    str += partA +data.device[i].title + partB + data.device[i].pic + partC + data.device[i].title + partD + data.device[i].content.replace(/\n/g,"<br />")+'<br /><br />' +  deviceInfo(i)  + partE;
+  }
+  $(".device_c").append(str);
+
+  return 0;
+}
+
+function deviceInfo(i){
+  I = data.device[i].info;
+
+  if(I.length>0)
+  {
+   
+   var info = '';
+   
+   for(var j =0; j < I.length; j++)
+   {
+      info += '<a class="red darken-1 waves-effect waves-light btn deviceBtn col s12 m12 l12" href="' + I[j].link +'">'+ I[j].name +'</a>';
+   }
+   return info;
+  }
+ else
+    return '';
+}
+
+/**Load the member**/
 function LoadMember(){
   /* 格式
     <div class="card col l12 m12 s12 row">
