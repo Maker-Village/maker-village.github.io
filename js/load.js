@@ -148,7 +148,7 @@ function LoadDevice(){
   */
 
   var partA = '<div class="card col s12 m6 l6"><div class="card-content"><span class="card-title activator grey-text text-darken-4">';
-  var partB = '<a class="right activator">詳細</a></span></div><div style="background: url(\' pic/device/';
+  var partB = '<a class="right activator">詳細</a></span></div><div style="background: url(\'';
   var partC = '\')" class="card-image waves-effect waves-block waves-light"><img class="activator" src="pic/trans_pic.png"></div><div class="card-reveal"><span class="card-title grey-text text-darken-4">';
   var partD = '<i class="material-icons right">close</i></span><p class="row">';
   var partE = '</p></div></div>';
@@ -158,13 +158,19 @@ function LoadDevice(){
 
   for(var i =0; i < data.device.length; i++)
   { 
-    str += partA +data.device[i].title + partB + data.device[i].pic + partC + data.device[i].title + partD + data.device[i].content.replace(/\n/g,"<br />")+'<br /><br />' +  deviceInfo(i)  + partE;
+    str += partA +data.device[i].title + partB + devicePic(i)+ partC + data.device[i].title + partD + data.device[i].content.replace(/\n/g,"<br />")+'<br /><br />' +  deviceInfo(i)  + partE;
   }
   $(".device_c").append(str);
 
   return 0;
 }
-
+function devicePic(i){
+  P = data.device[i].pic 
+  if(P != '')
+    return 'pic/device/' + P;
+  else
+    return '';
+}
 function deviceInfo(i){
   I = data.device[i].info;
 
