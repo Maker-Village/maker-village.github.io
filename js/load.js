@@ -113,7 +113,7 @@ function eventSign(i,j){
   S = data.event[i].subevent[j].signup;
 
   if(S != "")
-    return '<a class="red darken-1 waves-effect waves-light btn eventBtn" href="' + S +'">我要報名</a>';
+    return '<a class="red darken-1 waves-effect waves-light btn eventBtn" href="' + S +'" target="_blank">我要報名</a>';
   else
     return '';
 }
@@ -122,7 +122,7 @@ function eventRecord(i,j){
   R = data.event[i].subevent[j].record;
 
   if(R != "")
-   return '<a class="red darken-1 waves-effect waves-light btn eventBtn" href="' + R +'">活動紀錄</a>';
+   return '<a class="red darken-1 waves-effect waves-light btn eventBtn" href="' + R +'" target="_blank">活動紀錄</a>';
  else
     return '';
 }
@@ -181,7 +181,7 @@ function deviceInfo(i){
    
    for(var j =0; j < I.length; j++)
    {
-      info += '<a class="red darken-1 waves-effect waves-light btn deviceBtn col s12 m12 l12" href="' + I[j].link +'">'+ I[j].name +'</a>';
+      info += '<a class="red darken-1 waves-effect waves-light btn deviceBtn col s12 m12 l12" href="' + I[j].link +'" target="_blank">'+ I[j].name +'</a>';
    }
    return info;
   }
