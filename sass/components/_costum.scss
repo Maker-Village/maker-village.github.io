@@ -83,7 +83,11 @@ body{
 
 	.card{
 
-		height: 30em;
+		@media #{$medium-and-up}
+		{
+			height: 30em;
+		}
+
 		p{	font-size: 150%;}
 		p:nth-child(2){
 			background-color: rgba(255,255,255,0.4);
