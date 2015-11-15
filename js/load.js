@@ -131,7 +131,7 @@ function eventRecord(i,j){
 /**Load the device**/
 function LoadDevice(){
   /*
-  <div class="card col s12 m6 l6">
+  <div class="card col s12 m4 l4">
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">[title]<a class="right activator">詳細</a></span>
     </div>
@@ -148,7 +148,7 @@ function LoadDevice(){
   </div>
   */
 
-  var partA = '<div class="card col s12 m6 l6"><div class="card-content"><span class="card-title activator grey-text text-darken-4">';
+  var partA = '<div class="card col s12 m4 l4"><div class="card-content"><span class="card-title activator grey-text text-darken-4">';
   var partB = '<a class="right activator">詳細</a></span></div><div ';
   var partC = ' class="card-image waves-effect waves-block waves-light"><img class="activator" src="pic/trans_pic.png"></div><div class="card-reveal"><span class="card-title grey-text text-darken-4">';
   var partD = '<i class="material-icons right">close</i></span><p class="row">';

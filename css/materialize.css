@@ -12785,22 +12785,45 @@ body {
   padding-left: 5%;
   padding-right: 5%;
 }
-@media only screen and (min-width: 901px) {
-  /* line 82, ../sass/components/_costum.scss */
-  #about_us .card {
-    height: 46em;
-  }
+/* line 84, ../sass/components/_costum.scss */
+#about_us .card {
+  height: 30em;
+  -webkit-background-size: 60% auto !important;
+  -moz-background-size: 60% auto !important;
+  background-size: 60% auto !important;
+  background-repeat: no-repeat !important;
+  background-position: right bottom !important;
+  background-color: white !important;
 }
-/* line 89, ../sass/components/_costum.scss */
+/* line 87, ../sass/components/_costum.scss */
 #about_us .card p {
   font-size: 150%;
 }
-/* line 91, ../sass/components/_costum.scss */
+/* line 88, ../sass/components/_costum.scss */
+#about_us .card p:nth-child(2) {
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-box-shadow: 0 0 60px 20px rgba(255, 255, 255, 0.4);
+  -moz-box-shadow: 0 0 60px 20px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 60px 20px rgba(255, 255, 255, 0.4);
+}
+/* line 103, ../sass/components/_costum.scss */
 #about_us .card .title {
   font-size: 200%;
 }
+/* line 106, ../sass/components/_costum.scss */
+#about_us .card:nth-child(1) {
+  background: url("../pic/light_bulb.png");
+}
+/* line 107, ../sass/components/_costum.scss */
+#about_us .card:nth-child(2) {
+  background: url("../pic/wrench.png");
+}
+/* line 108, ../sass/components/_costum.scss */
+#about_us .card:nth-child(3) {
+  background: url("../pic/wrench.png");
+}
 
-/* line 97, ../sass/components/_costum.scss */
+/* line 113, ../sass/components/_costum.scss */
 #member p {
   font-size: 150%;
   margin-top: 0px;
@@ -12808,21 +12831,21 @@ body {
   margin-bottom: 10px;
 }
 
-/* line 107, ../sass/components/_costum.scss */
+/* line 123, ../sass/components/_costum.scss */
 #event_info .card .event-bold {
   font-size: 110%;
   font-weight: bold;
 }
-/* line 112, ../sass/components/_costum.scss */
+/* line 128, ../sass/components/_costum.scss */
 #event_info .card p {
   font-size: 120%;
 }
-/* line 116, ../sass/components/_costum.scss */
+/* line 132, ../sass/components/_costum.scss */
 #event_info .card .eventBtn {
   margin: 3px;
 }
 
-/* line 124, ../sass/components/_costum.scss */
+/* line 140, ../sass/components/_costum.scss */
 #device .card .card-image {
   height: 400px;
   -webkit-background-size: auto 100% !important;
@@ -12832,20 +12855,20 @@ body {
   background-position: center bottom !important;
 }
 @media only screen and (max-width: 900px) {
-  /* line 124, ../sass/components/_costum.scss */
+  /* line 140, ../sass/components/_costum.scss */
   #device .card .card-image {
     height: 250px;
   }
 }
-/* line 136, ../sass/components/_costum.scss */
+/* line 152, ../sass/components/_costum.scss */
 #device .card .card-image img {
   margin-bottom: 0px;
 }
-/* line 141, ../sass/components/_costum.scss */
+/* line 157, ../sass/components/_costum.scss */
 #device .card p {
   font-size: 120%;
 }
-/* line 144, ../sass/components/_costum.scss */
+/* line 160, ../sass/components/_costum.scss */
 #device .card .deviceBtn {
   margin-bottom: 6px;
 }

@@ -79,19 +79,35 @@ body{
 	padding-top: 40px;
 	padding-left: 5%;
 	padding-right: 5%;
+	
+
 	.card{
 
-    	@media #{$medium-and-up}
-    	{
- 			height: 46em;
-    	}
-		
+		height: 30em;
 		p{	font-size: 150%;}
+		p:nth-child(2){
+			background-color: rgba(255,255,255,0.4);
 
+			-webkit-box-shadow: 0 0 60px 20px rgba(255,255,255,0.4);
+			-moz-box-shadow: 0 0 60px 20px rgba(255,255,255,0.4);
+			box-shadow: 0 0 60px 20px rgba(255,255,255,0.4);
+
+		}
+		-webkit-background-size: 60% auto!important;
+		-moz-background-size: 60% auto!important;
+		background-size: 60% auto!important;
+		background-repeat: no-repeat !important;
+		background-position: right bottom !important;
+		background-color: rgba(255, 255, 255, 1) !important;
+		
 		.title{font-size: 200%;}
 	}
-}
+	
+	.card:nth-child(1){background: url('../pic/light_bulb.png');}	
+	.card:nth-child(2){background: url('../pic/wrench.png');}
+	.card:nth-child(3){background: url('../pic/wrench.png');}
 
+}
 #member{
 	
 	p{    
