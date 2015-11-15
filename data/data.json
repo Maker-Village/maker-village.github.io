@@ -79,13 +79,22 @@ var data = {
 		},
 		{
 			"title":"示波器",
-			"pic":"",
-			"content":"",
-			"info":[]
+			"pic":"Oscilloscope.jpg",
+			"content":"二手示波器，配有探針一支，感謝口丁(openlab Taipei)贊助",
+			"info":[
+				{
+					"name":"詳細參數",
+					"link":""
+				},
+				{
+					"name":"官方手冊",
+					"link":"./data/HM205-3_english.pdf"
+				}
+			]
 		},
 		{
 			"title":"電源供應器",
-			"pic":"",
+			"pic":"power_supply.jpg",
 			"content":"",
 			"info":[]
 		}

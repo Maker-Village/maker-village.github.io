@@ -5,6 +5,7 @@ $(document).ready(function(){
     edge: 'right',
     closeOnClick: true
   });
+  
   fixfpic();
   LoadMember();
   LoadDevice();
