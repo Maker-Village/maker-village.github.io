@@ -59,7 +59,7 @@ var data = {
 		{
 			"title":"3D 印表機",
 			"pic":"3Dprinter.jpg",
-			"content":"空間共有兩台3D印表機，機型分別為XYZ機構的SciBot與Delta機構的Kossel，詳細機體參數請點下方連結",
+			"content":"空間共有兩台3D印表機，機型分別為XYZ機構的SciBot與Delta機構的Kossel，詳細機體參數請點下方連結\n目前提供代印服務，價格為1NT$/min，由空間負責的人員操作機器列印",
 			"info":[
 				{
 					"name":"SciBot",
@@ -68,6 +68,10 @@ var data = {
 				{
 					"name":"Kossel",
 					"link":"http://maker-village.tk/?p=336"
+				},
+				{
+					"name":"操作事項",
+					"link":"https://makerspacexccu.hackpad.com/3DP-Tip-FKbnaxyFWqY"
 				}
 			]
 		},
