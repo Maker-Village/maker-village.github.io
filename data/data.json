@@ -84,7 +84,7 @@ var data = {
 		{
 			"title":"示波器",
 			"pic":"Oscilloscope.jpg",
-			"content":"二手示波器，型號HM205-3，配有探針一支，感謝口丁(openlab Taipei)贊助",
+			"content":"二手示波器，型號HM205-3，配有探針一支，感謝口丁(Openlab Taipei)贊助",
 			"info":[
 				{
 					"name":"詳細參數",
@@ -99,7 +99,7 @@ var data = {
 		{
 			"title":"電源供應器",
 			"pic":"power_supply.jpg",
-			"content":"二手電源供應器，型號DPS-1303AF，感謝口丁(openlab Taipei)贊助",
+			"content":"二手電源供應器，型號DPS-1303AF，感謝口丁(Openlab Taipei)贊助",
 			"info":[
 			{
 					"name":"詳細參數",
