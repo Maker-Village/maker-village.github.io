@@ -150,12 +150,12 @@
 
 /* line 371, ../sass/components/_color.scss */
 .red {
-  background-color: #FF312E !important;
+  background-color: #F61A25 !important;
 }
 
 /* line 374, ../sass/components/_color.scss */
 .red-text {
-  color: #FF312E !important;
+  color: #F61A25 !important;
 }
 
 /* line 379, ../sass/components/_color.scss */
@@ -240,12 +240,12 @@
 
 /* line 379, ../sass/components/_color.scss */
 .red.alpha-5 {
-  background-color: rgba(255, 49, 46, 0.5) !important;
+  background-color: rgrgb(255, 120, 118) !important;
 }
 
 /* line 382, ../sass/components/_color.scss */
 .red-text.text-alpha-5 {
-  color: rgba(255, 49, 46, 0.5) !important;
+  color: rgrgb(255, 120, 118) !important;
 }
 
 /* line 379, ../sass/components/_color.scss */
@@ -10176,8 +10176,8 @@ input[type=search].invalid,
 input[type=search]:focus.invalid,
 textarea.materialize-textarea.invalid,
 textarea.materialize-textarea:focus.invalid {
-  border-bottom: 1px solid #FF312E;
-  box-shadow: 0 1px 0 0 #FF312E;
+  border-bottom: 1px solid #F61A25;
+  box-shadow: 0 1px 0 0 #F61A25;
 }
 /* line 104, ../sass/components/_form.scss */
 input[type=text].invalid + label:after, input[type=text]:focus.invalid + label:after,
@@ -10202,7 +10202,7 @@ input[type=search]:focus.invalid + label:after,
 textarea.materialize-textarea.invalid + label:after,
 textarea.materialize-textarea:focus.invalid + label:after {
   content: attr(data-error);
-  color: #FF312E;
+  color: #F61A25;
   opacity: 1;
 }
 /* line 112, ../sass/components/_form.scss */

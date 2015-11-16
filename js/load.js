@@ -20,12 +20,12 @@ $( window ).scroll(function() {
     $('nav .brand-logo .top').removeClass("top");
     $('nav .brand-logo img').attr("src","./pic/LOGO-2.png");
 
-    $('nav .nav-wrapper').addClass("alpha-5");
+    $('nav .nav-wrapper').addClass("darken-1");
   }else{
     $('nav .brand-logo img').addClass("top");
     $('nav .brand-logo img').attr("src","./pic/LOGO.png");
     
-    $('nav .nav-wrapper').removeClass("alpha-5");
+    $('nav .nav-wrapper').removeClass("darken-1");
   }
 });
 

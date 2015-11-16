@@ -74,22 +74,22 @@ nav {
       }
 
     .top{
-        height: $navbar-LOGO-height;
-        background: $navbar-LOGO-background-color;  
+      height: $navbar-LOGO-height;
+      background: $navbar-LOGO-background-color;  
 
-        padding-right: $navbar-LOGO-height;
-        padding-left: 15px;
+      padding-right: $navbar-LOGO-height;
+      padding-left: 15px;
 
-        /*Chrome,Safari*/
-        -webkit-clip-path: polygon(0px 0, 100% 0, calc(100% - 73.9px) 100%, 0px 100%);
+      /*Chrome,Safari*/
+      -webkit-clip-path: polygon(0px 0, 100% 0, calc(100% - 73.9px) 100%, 0px 100%);
 
-        /* Firefox*/
-        clip-path: url(../pic/logo-clip-top.svg#LogoClipTop);
+      /* Firefox*/
+      clip-path: url(../pic/logo-clip-top.svg#LogoClipTop);
 
-        /* iOS support */
-         -webkit-mask: url(../pic/logo-clip-top.svg);
-        transition: -webkit-clip-path 0.5s,clip-path 0.5s,height 0.5s,padding-right0.5s;
-      }
+      /* iOS support */
+       -webkit-mask: url(../pic/logo-clip-top.svg);
+      transition: -webkit-clip-path 0.5s,clip-path 0.5s,height 0.5s,padding-right0.5s;
+    }
 
     @media #{$medium-and-down} {
       
