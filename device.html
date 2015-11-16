@@ -18,99 +18,46 @@
       <script type="text/javascript" src="js/materialize.min.js"></script>
 	    <script type="text/javascript" src="data/data.json"></script>
       <script type="text/javascript" src="js/load.js"></script>
-      <script type="text/javascript" src="js/load_index.js"></script>
-      <script type="text/javascript" src="js/load_event.js"></script>
-      <script type="text/javascript" src="js/load_member.js"></script>
-
+      <script type="text/javascript" src="js/load_device.js"></script>
 
       <!--navbar-->
       <div class="navbar-fixed">
         <nav>
           <div class="nav-wrapper red">
-            <a href="#" class="brand-logo" ><img class="top" src = "pic/LOGO.png" ></img></a>
+            <a href="index.html" class="brand-logo" ><img src = "pic/LOGO.png" ></img></a>
             <ul class="right hide-on-med-and-down ">
-              <li><a href="#about_us_content">關於我們</a></li>
-              <li><a href="#event_info">活動資訊</a></li>
+              <li><a href="index.html#content">關於我們</a></li>
+              <li><a href="index.html#event_info">活動資訊</a></li>
               <li><a href="device.html">空間設備</a></li>
               <li><a href="project.html">開發專案</a></li>
-              <li><a href="#member">空間成員</a></li>
-              <li><a href="#footer">聯絡我們</a></li>
+              <li><a href="index.html#member">空間成員</a></li>
+              <li><a href="index.html#footer">聯絡我們</a></li>
               <li><a href="https://www.facebook.com/ccuMakerVillage">粉絲專頁</a></li>
             </ul>
 
             <ul id="mobile-nav" class="side-nav">
-              <li><a href="#about_us_content">關於我們</a></li>
+              <li><a href="index.html#content">關於我們</a></li>
               <li><a href="https://www.facebook.com/ccuMakerVillage">粉絲專頁</a>
-              <li><a href="#event_info">活動資訊</a></li>
+              <li><a href="index.html#event_info">活動資訊</a></li>
               <li><a href="device.html">空間設備</a></li>
               <li><a href="project.html">開發專案</a></li>
-              <li><a href="#member">空間成員</a></li>
-              <li><a href="#footer">聯絡我們</a></li>
+              <li><a href="index.html#member">空間成員</a></li>
+              <li><a href="index.html#footer">聯絡我們</a></li>
             </ul>
              <a href="#" data-activates="mobile-nav" class="right button-collapse"><i class="material-icons">menu</i></a>
           </div>
         </nav>
       </div>
-      <!--contact icon-->
-      
-      <!--fitst picture-->
-      
-      <div id= "top_word" class="card">
-        <div class="card-content row">
-          <h1><a style="font-size: 135%; color: #FFFFFF ;">M</a>AKER <a style="font-size: 135%; color: #FFFFFF;">V</a>ILLAGE</h1>
-          <p>坐落於鳳梨田中的maker space</p>
-          </br>
-          <a id="top_btn" href="#about_us_content" class="waves-effect waves-light mobile-nav">關於我們</a>
-        </div>
-      </div>
-      
-
       <!--content-->
-      <div id="content" >
-        <!--about us-->
-        <div id ="about_us" class= "row section">
-          
-          <div id ="about_us_content"  class="card col s12 m4 l4 row scrollspy">
-            <p class ="title" >我們是?</p>
-            <p  class= "">
-              我們是一群喜愛動手做，將腦海中的創意實作出來的夥伴
-            </p>            
-          </div>
+      <div id="content" style="padding-top:0;">
 
-          <div class="card col s12 m4 l4 row" >
-            <p class ="title">我們希望?</p>
-            <p class= "">
-              將動手實作的Maker精神介紹給中正的師生們，藉由空間與工具的提供，降低大家實務上的門檻；
-            </p>
-          </div>
-
-          <div class="card col s12 m4 l4 row">
-            <p class ="title">我們會?</p>
-            <p class= "">
-              不定期舉辦Maker講座、手作工作坊讓同學們學習與體驗手作的樂趣，更是要讓來自不同學院、帶著不同的思維的同學們，匯聚於此地，一起碰撞出各種創新創意的火花！
-            </p>
-          </div>
-
-        </div>
-        <div class="divider"></div>
-
-        <!--event info-->
-        <div id ="event_info" class="section container scrollspy">
-          <h2>活動資訊</h2>
-          <div class="event_c row"></div>
-        </div>
-        <div class="divider"></div>
-
-        <!--member-->
-        <div id ="member" class="section grey  scrollspy">
-          <div class ="container">
-            <h2>空間成員</h2>
-            <div class="member_c row"></div>
-          </div>
+        <!--device-->
+        <div id ="device" class ="container section  scrollspy">
+          <h2>空間設備</h2>
+          <div class="device_c row"></div>
         </div>
       </div>
-      
-      
+
       <!--footer-->
       <footer id="footer" class="grey darken-3 scrollspy">
        
