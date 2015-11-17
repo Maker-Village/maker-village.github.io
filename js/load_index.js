@@ -1,6 +1,7 @@
 //init
 $(document).ready(function(){
   fixfpic();
+  randBg();
 });
 
 //scroll
@@ -26,4 +27,9 @@ function fixfpic(){
   $('#top_word').css("margin-top",top + "px");
   $('#top_word').css("margin-bottom",bottom + "px");
 
+}
+function randBg(){
+  var i = 0;
+  i = Math.floor((Math.random()*100) % data.bgcount);
+  $('body').css(  "background", "rgba(255,255,240,1) url('./pic/bg/" + i + ".jpg')  no-repeat center top");
 }
