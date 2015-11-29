@@ -23,7 +23,15 @@
       <script type="text/javascript" src="js/load_index.js"></script>
       <script type="text/javascript" src="js/load_event.js"></script>
       <script type="text/javascript" src="js/load_member.js"></script>
-
+      <!--Facebook like box SDK -->
+      <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
       <!--navbar-->
       <div class="navbar-fixed">
         <nav>
@@ -119,16 +127,20 @@
        
        <div class="container">
           <div class="row">
-            <div class="col l4 s12">
+            <div class="col l3 m3 s12">
               <h5 class="white-text">聯絡資訊</h5>
               <ul class="grey-text text-lighten-4">
                 <li>空間地點: 國立中正大學活動中心斜角巷3095(郵局旁)</li>
                 <li>開放時間: 每周二到周四 19:00~22:00<li>
-                <li>email: <a href="mailto:ccumakervillage@gmail.com">ccumakervillage@gmail.com<a></li>
+                <li>email: <a href="mailto:ccumakervillage@gmail.com">ccumakervillage@gmail.com</a></li>
               </ul>
             </div>
+            <div class="col l3 m3 s12">
+              
+              <div class="fb-page" data-href="https://www.facebook.com/ccuMakerVillage/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/ccuMakerVillage/"><a href="https://www.facebook.com/ccuMakerVillage/">Maker Village</a></blockquote></div></div>
 
-            <div class="col l4 s6">
+            </div>
+            <div class="col l3 m3 s6">
               <h5 class="white-text">相關連結</h5>
               <ul class="grey-text text-lighten-4">
                 <li><a href="https://www.facebook.com/ccuMakerVillage" target="_blank">粉絲專頁</a></li>
@@ -138,7 +150,7 @@
               </ul>
             </div>
 
-            <div class="col l4 s6">
+            <div class="col l3 m3 s6">
               <h5 class="white-text">引用資源</h5>
               <ul class="grey-text text-lighten-4">
                 <li>jQuery</li>

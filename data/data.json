@@ -32,7 +32,7 @@ var data = {
 					"time"    :"11/21 (六) 1400-1700",
 					"place"   :"Maker Village (活中郵局旁)",
 					"content" :"上次好多人錯過了LED棍的課程\n別擔心這次有LED Poi\n讓你的表演更精彩\n一起動手做出屬於自己的光與美吧",
-					"signup"  :"http://maker-village.tk/?page_id=28",
+					"signup"  :"",
 					"record"  :""
 				},
 				{
@@ -40,8 +40,8 @@ var data = {
 					"time"    :"11/23 (一) 1800-2000",
 					"place"   :"圖書館一樓 多元創意教室",
 					"content" :"多旋翼飛行器拉近了我們與天空的距離，\n透過全新的視角我們將重新認識這片土地---Arklab\n一起來聽多旋翼的專家--張東琳\n為我們分享動手做的精神與未來展望吧",
-					"signup"  :"http://maker-village.tk/?page_id=9",
-					"record"  :""
+					"signup"  :"",
+					"record"  :"https://www.facebook.com/media/set/?set=a.650941518342426.1073741833.610943155675596"
 				},
 				{
 					"title"   :"Maker Faire Tainan",
@@ -133,7 +133,7 @@ var data = {
 		},
 		{
 			"name":"黃昱峯",
-			"head":"",
+			"head":"11215.jpg",
 			"post":"Maker Village 網路部",
 			"profile":""
 		},
