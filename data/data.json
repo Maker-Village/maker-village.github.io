@@ -70,7 +70,7 @@ var data = {
 					"time"    :"12/12 (六) 0900-1200",
 					"place"   :"共同教室大樓121",
 					"content" :"你知道什麼是Arduino嗎？\n幾乎任何人，都能用 Arduino 做出很酷的東西\n講師就自己做了寫字機和體感電動車唷！\n這次課程想讓沒有學過寫程式的你\n也可以自己實做出貪吃蛇小遊戲哦",
-					"signup"  :"",
+					"signup"  :"http://maker-village.tk/?page_id=483",
 					"record"  :""
 				},
 				{
