@@ -8562,33 +8562,23 @@ nav .brand-logo.center {
 /* line 56, ../sass/components/_navbar.scss */
 nav .brand-logo img {
   height: 56px;
-  background: #e0e0e0;
-  padding-right: 56px;
-  padding-left: 15px;
+  padding-left: 0px;
   /*Chrome,Safari*/
-  -webkit-clip-path: polygon(0px 0, 100% 0, calc(100% - 32.33px) 100%, 0px 100%);
   /* Firefox*/
-  clip-path: url(../pic/logo-clip.svg#LogoClip);
   /* iOS support */
-  -webkit-mask: url(../pic/logo-clip.svg);
   transition: -webkit-clip-path 0.5s, clip-path 0.5s, height 0.5s, padding-right0 0.5s;
 }
-/* line 76, ../sass/components/_navbar.scss */
+/* line 77, ../sass/components/_navbar.scss */
 nav .brand-logo .top {
   height: 128px;
-  background: #e0e0e0;
-  padding-right: 128px;
-  padding-left: 15px;
+  padding-left: 0px;
   /*Chrome,Safari*/
-  -webkit-clip-path: polygon(0px 0, 100% 0, calc(100% - 73.9px) 100%, 0px 100%);
   /* Firefox*/
-  clip-path: url(../pic/logo-clip-top.svg#LogoClipTop);
   /* iOS support */
-  -webkit-mask: url(../pic/logo-clip-top.svg);
   transition: -webkit-clip-path 0.5s, clip-path 0.5s, height 0.5s, padding-right0 0.5s;
 }
 @media only screen and (max-width: 1120px) {
-  /* line 98, ../sass/components/_navbar.scss */
+  /* line 99, ../sass/components/_navbar.scss */
   nav .brand-logo.left, nav .brand-logo.right {
     padding: 0;
     -webkit-transform: none;
@@ -8597,38 +8587,33 @@ nav .brand-logo .top {
     -o-transform: none;
     transform: none;
   }
-  /* line 103, ../sass/components/_navbar.scss */
+  /* line 104, ../sass/components/_navbar.scss */
   nav .brand-logo.left {
     left: 0.5rem;
   }
-  /* line 104, ../sass/components/_navbar.scss */
+  /* line 105, ../sass/components/_navbar.scss */
   nav .brand-logo.right {
     right: 0.5rem;
     left: auto;
   }
-  /* line 109, ../sass/components/_navbar.scss */
+  /* line 110, ../sass/components/_navbar.scss */
   nav .brand-logo .top, nav .brand-logo img {
     height: 56px;
     /*Chrome,Safari*/
-    -webkit-clip-path: polygon(0px 0, 100% 0, calc(100% - 32.33px) 100%, 0px 100%);
     /* Firefox*/
-    clip-path: url(../pic/logo-clip.svg#LogoClip);
     /* iOS support */
-    -webkit-mask: url(../pic/logo-clip.svg);
-    padding-right: 56px;
-    padding-left: 15px;
   }
 }
-/* line 127, ../sass/components/_navbar.scss */
+/* line 128, ../sass/components/_navbar.scss */
 nav .brand-logo.right {
   right: 0.5rem;
   padding: 0;
 }
-/* line 135, ../sass/components/_navbar.scss */
+/* line 136, ../sass/components/_navbar.scss */
 nav ul {
   margin: 0;
 }
-/* line 138, ../sass/components/_navbar.scss */
+/* line 139, ../sass/components/_navbar.scss */
 nav ul li {
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
@@ -8638,43 +8623,43 @@ nav ul li {
   float: left;
   padding: 0;
 }
-/* line 143, ../sass/components/_navbar.scss */
+/* line 144, ../sass/components/_navbar.scss */
 nav ul li:hover, nav ul li.active {
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* line 147, ../sass/components/_navbar.scss */
+/* line 148, ../sass/components/_navbar.scss */
 nav ul a {
   font-size: 1.2rem;
   color: #fff;
   display: block;
   padding: 0 15px;
 }
-/* line 154, ../sass/components/_navbar.scss */
+/* line 155, ../sass/components/_navbar.scss */
 nav ul.left {
   float: left;
 }
-/* line 160, ../sass/components/_navbar.scss */
+/* line 161, ../sass/components/_navbar.scss */
 nav .input-field {
   margin: 0;
 }
-/* line 163, ../sass/components/_navbar.scss */
+/* line 164, ../sass/components/_navbar.scss */
 nav .input-field input {
   height: 100%;
   font-size: 1.2rem;
   border: none;
   padding-left: 2rem;
 }
-/* line 169, ../sass/components/_navbar.scss */
+/* line 170, ../sass/components/_navbar.scss */
 nav .input-field input:focus, nav .input-field input[type=text]:valid, nav .input-field input[type=password]:valid, nav .input-field input[type=email]:valid, nav .input-field input[type=url]:valid, nav .input-field input[type=date]:valid {
   border: none;
   box-shadow: none;
 }
-/* line 175, ../sass/components/_navbar.scss */
+/* line 176, ../sass/components/_navbar.scss */
 nav .input-field label {
   top: 0;
   left: 0;
 }
-/* line 179, ../sass/components/_navbar.scss */
+/* line 180, ../sass/components/_navbar.scss */
 nav .input-field label i {
   color: rgba(255, 255, 255, 0.7);
   -webkit-transition: color 0.3s;
@@ -8683,11 +8668,11 @@ nav .input-field label i {
   -ms-transition: color 0.3s;
   transition: color 0.3s;
 }
-/* line 183, ../sass/components/_navbar.scss */
+/* line 184, ../sass/components/_navbar.scss */
 nav .input-field label.active i {
   color: #fff;
 }
-/* line 184, ../sass/components/_navbar.scss */
+/* line 185, ../sass/components/_navbar.scss */
 nav .input-field label.active {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
@@ -8696,25 +8681,25 @@ nav .input-field label.active {
   transform: translateY(0);
 }
 
-/* line 193, ../sass/components/_navbar.scss */
+/* line 194, ../sass/components/_navbar.scss */
 .navbar-fixed {
   position: relative;
   height: 56px;
   z-index: 998;
 }
-/* line 198, ../sass/components/_navbar.scss */
+/* line 199, ../sass/components/_navbar.scss */
 .navbar-fixed nav {
   position: fixed;
 }
 
 @media only screen and (min-width: 1121px) {
-  /* line 203, ../sass/components/_navbar.scss */
+  /* line 204, ../sass/components/_navbar.scss */
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 56px;
     line-height: 56px;
   }
 
-  /* line 207, ../sass/components/_navbar.scss */
+  /* line 208, ../sass/components/_navbar.scss */
   .navbar-fixed {
     height: 56px;
   }
@@ -12860,15 +12845,15 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     height: 250px;
   }
 }
-/* line 152, ../sass/components/_costum.scss */
+/* line 151, ../sass/components/_costum.scss */
 #device .card .card-image img {
   margin-bottom: 0px;
 }
-/* line 157, ../sass/components/_costum.scss */
+/* line 156, ../sass/components/_costum.scss */
 #device .card p {
   font-size: 120%;
 }
-/* line 160, ../sass/components/_costum.scss */
+/* line 159, ../sass/components/_costum.scss */
 #device .card .deviceBtn {
   margin-bottom: 6px;
 }
