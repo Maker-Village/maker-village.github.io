@@ -62,8 +62,8 @@ var data = {
 					"time"    :"12/08 (二) 1800-2000",
 					"place"   :"圖書館 視聽教室115",
 					"content" :"當生活中一切越來越聰明，趨向智慧化\n你知道機器們已經可以相互溝通合作了嗎\n來參加講座了解「物聯網」如何改變我們的生活吧",
-					"signup"  :"http://maker-village.tk/?page_id=471",
-					"record"  :""
+					"signup"  :"",
+					"record"  :"https://www.facebook.com/ccuMakerVillage/posts/654247511345160"
 				},
 				{
 					"title"   :"Arduino 基礎工作坊",
