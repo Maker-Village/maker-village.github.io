@@ -62,7 +62,7 @@ function eventTime(i,j){
   T = data.event[i].subevent[j].time;
 
   if(T != "")
-    return '活動時間: ' + T +'<br />' ;
+    return '活動時間: ' + T.replace(/\n/g,"<br />") +'<br />' ;
   else
     return '';
 }
