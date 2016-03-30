@@ -22,7 +22,7 @@ var data = {
 		{
 			"title":"3D 印表機",
 			"pic":"3Dprinter.jpg",
-			"content":"空間共有兩台3D印表機，機型分別為XYZ機構的SciBot與Delta機構的Kossel，詳細機體參數請點下方連結\n目前提供代印服務，價格為1NT$/min，由空間負責的人員操作機器列印",
+			"content":"空間共有兩台3D印表機，機型分別為XYZ機構的SciBot與Delta機構的Kossel，詳細機體參數請點下方連結\n如果經過認證可自行操作印表機，列印價格為1.5 NT$/min；如需代印服務，價格為2.5 NT$/min，由空間負責的人員操作機器列印",
 			"info":[
 				{
 					"name":"SciBot",
@@ -46,7 +46,7 @@ var data = {
 		},
 		{
 			"title":"雷射雕刻機",
-			"pic":"",
+			"pic":"laser.jpg",
 			"content":"簡易型雷射雕刻機，使用1W藍光雷射，可做非金屬與非透明材質之表面雕刻",
 			"info":[
 				{
