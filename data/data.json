@@ -15,6 +15,44 @@ var data = {
 				}
 			]
 		},
+		{
+			"title": "Solar Maker 成果展",
+			"pic" : "solar.jpg",
+			"subevent":[
+				{
+					"title"   :"",
+					"time"    :"\n5/15(日)~5/26(四)\n",
+					"place"   :"中正大學圖書館3樓藝閣，Maker Village",
+					"content" :"偉人創造史蹟，上帝創造奇蹟，Solar Maker為你創造太陽系\n日月蝕 X VR太陽系 X 3D掃描 X 太陽系全息投影 X 太陽火\n",
+					"signup"  :"",
+					"record"  :""
+				},
+				{
+					"title"   :"OpenLab,Taipei 的社群故事",
+					"time"    :"\n5/16(一) 1900~2100\n",
+					"place"   :"",
+					"content" :"",
+					"signup"  :"",
+					"record"  :""
+				},
+				{
+					"title"   :"太陽公公烤香腸: 太陽熱能應用與分享",
+					"time"    :"\n5/21(六) 1500~1700\n",
+					"place"   :"",
+					"content" :"",
+					"signup"  :"",
+					"record"  :""
+				},
+				{
+					"title"   :"虛擬實境(VR)眼鏡工作坊",
+					"time"    :"\n5/17(二) 5/24(二)1930~2130\n",
+					"place"   :"",
+					"content" :"",
+					"signup"  :"",
+					"record"  :""
+				}
+			]
+		}
 		
 	],
 
