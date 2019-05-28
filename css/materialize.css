@@ -12795,16 +12795,19 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 #about_us .card .title {
   font-size: 200%;
 }
-/* line 106, ../sass/components/_costum.scss */
 #about_us .card:nth-child(1) {
+  background: url("../pic/LOGO-3.jpg");
+}
+/* line 106, ../sass/components/_costum.scss */
+#about_us .card:nth-child(2) {
   background: url("../pic/light_bulb.png");
 }
 /* line 107, ../sass/components/_costum.scss */
-#about_us .card:nth-child(2) {
+#about_us .card:nth-child(3) {
   background: url("../pic/wrench.png");
 }
 /* line 108, ../sass/components/_costum.scss */
-#about_us .card:nth-child(3) {
+#about_us .card:nth-child(4) {
   background: url("../pic/wrench.png");
 }
 
